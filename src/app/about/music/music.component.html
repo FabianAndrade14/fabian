@@ -1,0 +1,35 @@
+<div class="activity-container">
+  <div class="activity-card" *ngIf="song; else noSong">
+    <h3>🎵 Escuchando ahora</h3>
+    <a [href]="songLink" target="_blank" rel="noopener noreferrer">
+      <img [src]="songCover" alt="Carátula del álbum" />
+    </a>
+    <p><strong>{{ songTitle }}</strong></p>
+    <p>{{ songArtist }}</p>
+  </div>
+
+  <!-- 🎵 En caso de que no haya canción -->
+  <ng-template #noSong>
+    <div class="activity-card">
+      <h3>🎵 Escuchando ahora</h3>
+      <p>No se está reproduciendo música actualmente.</p>
+    </div>
+  </ng-template>
+
+  <div class="activity-card">
+    <h3>Leyendo</h3>
+    <img [src]="readingActivity.cover" alt="Book cover">
+    <p><strong>{{ readingActivity.title }}</strong></p>
+    <p>{{ readingActivity.author }}</p>
+    <p>{{ readingActivity.progress }}% read</p>
+  </div>
+
+  <div class="activity-card">
+    <h3>Paying now!</h3>
+    <img [src]="gamingActivity.cover" alt="Game cover">
+    <p><strong>{{ gamingActivity.title }}</strong></p>
+    <p><strong>Plataforma:</strong> {{ gamingActivity.platform }}</p>
+    <p><strong>Jugado por última vez:</strong> {{ gamingActivity.lastPlayed | date }}</p>
+  </div>
+
+</div>
