@@ -1,23 +1,59 @@
 .activity-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1.5rem;
   padding: 1rem;
   justify-content: center;
 }
 
 .activity-card {
-  background-color: #1e1e2f;
-  padding: 1rem;
-  border-radius: 12px;
-  color: white;
-  width: 280px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  text-align: center;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgba(30, 30, 47, 0.6); /* Glass-like background */
+  backdrop-filter: blur(10px);       /* Blur effect */
+  padding: 0.75rem 1rem;
+  border-radius: 14px;
+  color: #fff;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .activity-card img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 0.5rem;
+  width: 65px;
+  height: 65px;
+  border-radius: 8px;
+  margin-right: 1rem;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.activity-card:hover img {
+  transform: scale(1.15);
+}
+
+.activity-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.activity-type {
+  font-size: 0.75rem;
+  color: #aaa;
+  letter-spacing: 0.05em;
+  margin-bottom: 2px;
+}
+
+.activity-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #fff;
+}
+
+.activity-subtitle {
+  font-size: 0.85rem;
+  color: #ccc;
 }

@@ -1,0 +1,72 @@
+.experience-card {
+  display: flex;
+  background-color: #0f172a;
+  border-radius: 12px;
+  width: 70%;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #f1f5f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border-left: 4px solid #3b82f6;
+}
+
+.experience-container {
+  position: relative;
+  max-width: 800px;
+  margin: 3rem auto;
+  padding-left: 4.6rem;
+}
+
+.logo img {
+  width: 48px;
+  height: 48px;
+  margin-right: 1.25rem;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.content {
+  flex: 1;
+}
+
+.header .title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.badge {
+  background-color: #22c55e;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.company {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  margin: 0.3rem 0;
+}
+
+.dates {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 0.75rem;
+}
+
+.location {
+  color: #3b82f6;
+  font-weight: 500;
+}
+
+.description {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  color: #e2e8f0;
+}

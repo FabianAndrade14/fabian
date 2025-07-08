@@ -25,6 +25,13 @@ export class MusicComponent implements OnInit {
     lastPlayed: this.timestamp
   }
 
+  comicActivity = {
+    title: 'Peter Parker: The Spectacular Spider-man',
+    issue: '#7, Volume 1',
+    cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdv_nSO8cptkjyU4SK__0WDqi3gL6WjooEVg&s',
+    progress: 50
+  }
+
   constructor(private spotifyService: SpotifyService) {}
 
   ngOnInit(): void {
