@@ -1,23 +1,38 @@
 .activity-container {
+  font-family: 'Inter', sans-serif;
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  padding: 1rem;
-  justify-content: center;
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  color: #f1f5f9;
+
 }
 
 .activity-card {
-  font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
   background: rgba(30, 30, 47, 0.6); /* Glass-like background */
-  backdrop-filter: blur(10px);       /* Blur effect */
-  padding: 0.75rem 1rem;
+  padding: 1rem 1.25rem;
   border-radius: 14px;
   color: #fff;
   width: 320px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.activity-title-container {
+  font-family: 'Inter', sans-serif;
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  color: #f1f5f9;
+  border-left: 4px solid #c0392b;
+  padding-left: 0.75rem;
+  font-weight: 600;
+
+
 }
 
 .activity-card img {

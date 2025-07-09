@@ -32,6 +32,13 @@ export class MusicComponent implements OnInit {
     progress: 50
   }
 
+  musicActivity = {
+    title: 'High Hopes',
+    author: 'Panic! at the disco',
+    cover: 'https://i1.sndcdn.com/artworks-ur6GPYq7yjSV-0-t500x500.jpg',
+
+  }
+
   constructor(private spotifyService: SpotifyService) {}
 
   ngOnInit(): void {

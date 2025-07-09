@@ -7,6 +7,9 @@ import { CallbackComponent } from './about/callback/callback.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ExperienceComponent } from './about/experience/experience.component';
 import { SkillsComponent } from './about/skills/skills.component';
+import { FooterComponent } from './main/footer/footer.component';
+import { HeaderComponent } from './main/header/header.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { SkillsComponent } from './about/skills/skills.component';
     MusicComponent,
     CallbackComponent,
     ExperienceComponent,
-    SkillsComponent
+    SkillsComponent,
+    FooterComponent,
+    HeaderComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

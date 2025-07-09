@@ -2,7 +2,7 @@
   display: flex;
   background-color: #0f172a;
   border-radius: 12px;
-  width: 70%;
+  width: 87%;
   padding: 1rem 1.25rem;
   margin-bottom: 1.5rem;
   color: #f1f5f9;
@@ -11,10 +11,20 @@
 }
 
 .experience-container {
-  position: relative;
+  font-family: 'Inter', sans-serif;
   max-width: 800px;
   margin: 3rem auto;
-  padding-left: 4.6rem;
+  padding: 0 1rem;
+  color: #f1f5f9;
+}
+
+.experience-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  border-left: 4px solid #3b82f6;
+  padding-left: 0.75rem;
 }
 
 .logo img {

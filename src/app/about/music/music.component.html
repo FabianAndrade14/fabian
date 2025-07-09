@@ -1,4 +1,6 @@
+<h2 class="activity-title-container">Activity</h2>
 <div class="activity-container">
+
   <div class="activity-card">
     <img [src]="gamingActivity.cover" alt="Portada" />
     <div class="activity-content">
@@ -16,9 +18,15 @@
       <div class="activity-subtitle">{{ readingActivity.author }}</div>
     </div>
   </div>
-</div>
+  <div class="activity-card">
+    <img [src]="musicActivity.cover" alt="Portada" />
+    <div class="activity-content">
+      <div class="activity-type">NOW PLAYING</div>
+      <div class="activity-title">{{ musicActivity.title }}</div>
+      <div class="activity-subtitle">{{ musicActivity.author }}</div>
+    </div>
+  </div>
 
-<div class="activity-container">
   <div class="activity-card">
     <img [src]="comicActivity.cover" alt="Libro" />
     <div class="activity-content">
