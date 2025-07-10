@@ -1,0 +1,138 @@
+/* Estilos base */
+.site-header {
+  background: rgba(30, 30, 47, 0.6); /* Glass-like background */
+  padding: 0.75rem 2rem;
+  border-bottom: 1px solid #1e293b;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: rgba(30, 30, 47, 0.6);
+  font-family: 'Avenir Next LT Pro', 'Inter', monospace;
+}
+
+/* Contenedor */
+.header-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo + nombre */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-icon {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.dev-name {
+  font-family: 'Fira Code', monospace;
+  color: #67e8f9;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* Navegación */
+.nav-bar {
+  display: flex;
+  gap: 1rem;
+  background-color: #1e293b;
+  padding: 0.4rem 0.6rem;
+  border-radius: 12px;
+}
+
+.nav-link {
+  padding: 0.4rem 0.8rem;
+  color: #cbd5e1;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  background-color: #334155;
+  color: #67e8f9;
+}
+
+.nav-link.active {
+  background-color: #10b981;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Botón modo oscuro */
+.theme-toggle {
+  background: none;
+  border: none;
+  color: #94a3b8;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.theme-toggle:hover {
+  color: #67e8f9;
+}
+
+/* Ocultar botón hamburguesa en escritorio */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  color: #cbd5e1;
+  cursor: pointer;
+}
+
+/* Menú móvil */
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  background: transparent; /* Glass-like background */
+
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: #cbd5e1;
+  font-weight: 500;
+}
+
+.mobile-menu a:hover {
+  color: #67e8f9;
+}
+
+.mobile-menu.hidden {
+  display: none;
+}
+
+/* Responsive breakpoint */
+@media (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .theme-toggle {
+    margin-left: 0.5rem;
+  }
+
+  .header-container {
+    gap: 1rem;
+  }
+}
