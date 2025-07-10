@@ -1,0 +1,88 @@
+.section-container {
+  font-family: 'Inter', sans-serif;
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  color: #f1f5f9;
+  position: left;
+}
+
+.about-card {
+  background: rgba(30, 30, 47, 0.6);
+  border-radius: 12px;
+  width: 87%;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #f1f5f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.about-section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  color: #22d3ee;
+  border-left: 4px solid #22d3ee;
+  padding-left: 0.75rem;
+}
+
+.about-section p {
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+}
+
+.about-section a {
+  color: #3b82f6;
+  border-bottom: 1px dotted #3b82f6;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.about-section a:hover {
+  color: #60a5fa;
+}
+
+.about-photo {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.about-photo img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+.about-photo figcaption {
+  font-size: 0.875rem;
+  color: #94a3b8;
+  margin-top: 0.5rem;
+}
+
+.connect-block {
+  margin-top: 2rem;
+}
+
+.connect-block h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.social-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.social-icons a {
+  font-size: 1.25rem;
+  color: #94a3b8;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.social-icons a:hover {
+  color: #3b82f6;
+  transform: scale(1.2);
+}
