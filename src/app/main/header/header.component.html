@@ -14,17 +14,16 @@
 
     <!-- Navegación -->
     <nav class="nav-bar">
-      <a href="Home" class="nav-link active">Home</a>
-      <a href="" class="nav-link">About</a>
-      <a href="" class="nav-link">Projects</a>
+      <a [routerLink]="['/']" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+      <a [routerLink]="['/about']" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">About</a>
+      <a [routerLink]="['/projects']" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Projects</a>
     </nav>
 
       <!-- Menú responsive desplegable -->
   <div class="mobile-menu" [ngClass]="{ 'hidden': !isMobileMenuOpen }">
-    <a href="#about" class="nav-link">About</a>
-    <a href="#blog" class="nav-link">Blog</a>
-    <a href="#projects" class="nav-link">Projects</a>
-    <a href="#uses" class="nav-link">Uses</a>
+    <a [routerLink]="['/']" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+    <a [routerLink]="['/about']" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">About</a>
+    <a [routerLink]="['/projects']" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Projects</a>
   </div>
 
   </div>

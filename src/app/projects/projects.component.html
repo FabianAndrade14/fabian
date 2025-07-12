@@ -1,0 +1,21 @@
+<section class="section-wrapper">
+  <div class="projects-header">
+    <h2>Featured Projects</h2>
+    <a routerLink="/projects" class="view-all-btn">
+      <i class="fas fa-arrow-right"></i> View all
+    </a>
+  </div>
+
+  <div class="projects-grid">
+    <div class="project-card" *ngFor="let project of projects">
+      <img [src]="project.image" alt="{{ project.title }} icon" class="project-img" />
+      <div class="project-content">
+        <div class="project-header">
+          <h3>{{ project.title }}</h3>
+          <span class="stars"><i class="fas fa-star"></i> {{ project.stars }}</span>
+        </div>
+        <p>{{ project.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>
