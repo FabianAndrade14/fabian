@@ -11,37 +11,35 @@ export class ProjectsComponent {
     title: 'ECommmerceAPI',
     image: 'https://icon-library.com/images/e-commerce-icon/e-commerce-icon-4.jpg',
     stars: 1,
-    description: 'API created using .NET'
+    description: 'API created using .NET',
+    link: 'https://github.com/FabianAndrade14/pixabay-react'
   },
   {
-    title: 'Frames',
-    image: 'https://via.placeholder.com/48?text=F',
-    stars: 644,
-    description: 'Immersive Android wallpaper gallery dashboard app'
+    title: 'Pixabay image searcher',
+    image: 'https://cdn-icons-png.flaticon.com/512/8122/8122729.png',
+    stars: 2,
+    description: 'Image browser created with React',
+    link: 'https://github.com/FabianAndrade14/pixabay-react'
   },
   {
-    title: 'Kuper',
-    image: 'https://via.placeholder.com/48?text=K',
-    stars: 224,
-    description: 'Widget showcase for Kustom & Zooper'
+    title: 'Journal App',
+    image: 'https://github.com/FabianAndrade14/journal-app/raw/main/book_sprite.png',
+    stars: 1,
+    description: 'A developer diary',
+    link: 'https://github.com/FabianAndrade14/journal-app'
   },
   {
-    title: 'World Holidays',
-    image: 'https://via.placeholder.com/48?text=W',
+    title: 'Gif Expert',
+    image: 'https://icon-library.com/images/image-icon-png/image-icon-png-6.jpg',
     stars: 4,
-    description: 'Get to know upcoming worldwide holidays'
+    description: 'Take a look to your favourite gifs',
+    link: 'https://github.com/FabianAndrade14/GifExpertApp'
   },
   {
-    title: 'Blueprint',
-    image: 'https://via.placeholder.com/48?text=B',
-    stars: 801,
-    description: 'Feature-rich dashboard for Android icon packs'
-  },
-  {
-    title: 'Kuper',
-    image: 'https://via.placeholder.com/48?text=K',
-    stars: 224,
-    description: 'Widget showcase for Kustom & Zooper'
+    title: 'Fortaleza de la soledad',
+    image: 'https://firebasestorage.googleapis.com/v0/b/fandrade-fa579.appspot.com/o/logo-fortress.png?alt=media&token=bda3a5ee-b938-46d5-ad81-7ee232d4386e',
+    stars: 2,
+    description: 'Business initiave developed with Angular'
   },
   {
     title: 'PokemonApp',
@@ -50,16 +48,11 @@ export class ProjectsComponent {
     description: 'Frontend angular practice'
   },
   {
-    title: 'Kuper',
-    image: 'https://via.placeholder.com/48?text=K',
-    stars: 224,
-    description: 'Widget showcase for Kustom & Zooper'
-  },
-  {
-    title: 'World Holidays',
-    image: 'https://via.placeholder.com/48?text=W',
+    title: 'Catchy Hero Phrases',
+    image: 'https://images.seeklogo.com/logo-png/13/2/spider-man-comic-new-logo-png_seeklogo-130400.png',
     stars: 4,
-    description: 'Get to know upcoming worldwide holidays'
+    description: 'API developed with node',
+    link: 'https://github.com/FabianAndrade14/catchyHeroPhrases',
   }
 
   ]

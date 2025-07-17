@@ -13,7 +13,7 @@ export class HomeComponent implements AfterViewInit {
     'a frontend developer.',
     'a passionate learner.',
     'a creative coder.',
-    'a fullstack enthusiastic.'
+    'a fullstack enthusiast.'
   ];
 
   phraseIndex = 0;

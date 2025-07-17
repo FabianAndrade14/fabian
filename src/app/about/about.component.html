@@ -9,28 +9,26 @@
       and easy to maintain.</p>
 
     <figure class="about-photo">
-      <img src="../../assets/img/02.JPG" alt="Fabian in Comic-con" />
-      <figcaption>In Comic con Bogotá – Jun ‘23</figcaption>
+      <img [src]="selectedPhoto?.src" [alt]="selectedPhoto?.alt" />
+      <figcaption>{{ selectedPhoto?.caption }}</figcaption>
     </figure>
 
-    <p>I’m a huge advocate for open source and collaborating with the community. You can find my stash of websites,
-      libraries, and apps on <a href="#">GitHub</a> which have earned over 2K stars.</p>
 
-    <p>I thrive in globally-remote teams that value people and embrace trust, kindness, and inclusion.</p>
+    <p>I enjoy working with globally distributed teams that prioritize people, foster trust, and create inclusive, compassionate environments.</p>
 
-    <p>If you’re curious about the hardware and software tools I use every day, feel free to check out the <a
-        href="#">uses page</a>. And discover new music with my <a href="#">daily-updated playlist</a> of top recently
-      listened songs!</p>
+    <p>If you’re curious about the things i usually do in my freetime, you can check scrolling this page. Discover new music with my
+      <a href="https://open.spotify.com/playlist/2rnGPhq7JvREQJJJfxya0d?si=5098490d1a5b4d51" target="_blank">favourite playlist</a>
+      of my most listened songs!</p>
 
     <div class="connect-block">
       <h3>Let’s connect!</h3>
       <p>Feel free to <a href="mailto:fabian@email.com">send me a message</a>, or find me on social media:</p>
       <div class="social-icons">
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="devicon-twitter-original"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fas fa-music"></i></a>
+        <a href="https://www.linkedin.com/in/fabian-camilo-andrade-mesa-abb8b9235/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/FabianAndrade14" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://x.com/another_friki_" target="_blank"><i class="devicon-twitter-original"></i></a>
+        <a href="https://www.instagram.com/fabian_belmont19/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://open.spotify.com/playlist/2rnGPhq7JvREQJJJfxya0d" target="_blank"><i class="fas fa-music"></i></a>
       </div>
     </div>
   </div>
@@ -39,4 +37,4 @@
 
 <app-skills></app-skills>
 <app-experience></app-experience>
-<app-music></app-music>
+<app-music id="activity"></app-music>
