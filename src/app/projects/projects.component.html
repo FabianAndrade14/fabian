@@ -7,7 +7,8 @@
   </div>
 
   <div class="projects-grid">
-    <div class="project-card" *ngFor="let project of projects">
+
+    <a href="{{ project.link }}" target="_blank" class="project-card" *ngFor="let project of projects">
       <img [src]="project.image" alt="{{ project.title }} icon" class="project-img" />
       <div class="project-content">
         <div class="project-header">
@@ -16,6 +17,7 @@
         </div>
         <p>{{ project.description }}</p>
       </div>
-    </div>
+    </a>
+
   </div>
 </section>

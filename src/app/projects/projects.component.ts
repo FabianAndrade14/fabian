@@ -12,7 +12,7 @@ export class ProjectsComponent {
     image: 'https://icon-library.com/images/e-commerce-icon/e-commerce-icon-4.jpg',
     stars: 1,
     description: 'API created using .NET',
-    link: 'https://github.com/FabianAndrade14/pixabay-react'
+    link: 'https://github.com/FabianAndrade14/EcommerceAPI'
   },
   {
     title: 'Pixabay image searcher',
@@ -39,13 +39,15 @@ export class ProjectsComponent {
     title: 'Fortaleza de la soledad',
     image: 'https://firebasestorage.googleapis.com/v0/b/fandrade-fa579.appspot.com/o/logo-fortress.png?alt=media&token=bda3a5ee-b938-46d5-ad81-7ee232d4386e',
     stars: 2,
-    description: 'Business initiave developed with Angular'
+    description: 'Business initiave developed with Angular',
+    link: 'https://github.com/FabianAndrade14/fortress-solitude-bar'
   },
   {
-    title: 'PokemonApp',
+    title: 'Pokemon App',
     image: 'https://poke-api-pied.vercel.app/assets/images/poxedex.png',
     stars: 1,
-    description: 'Frontend angular practice'
+    description: 'Frontend angular practice',
+    link: 'https://github.com/FabianAndrade14/pokemon-app'
   },
   {
     title: 'Catchy Hero Phrases',
