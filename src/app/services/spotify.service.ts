@@ -8,9 +8,9 @@ import { environment } from 'src/environments/environment';
 })
 export class SpotifyService {
 
-  clientId = 'ebe24560f663410998205538db250347';
-  redirectUri = 'https://localhost:4200/callback';
-  private accessToken = 'BQCxBhK0JhTI_aJhoKMVTzIBvTlunEdGQL0azThGDPKI0cKCksQtilH_N-w2edxJFK357NSj2JRKvqsg_qVm9MLAwFxkYtn7H7NqV66-ci9xpB1EjuUGOKhQsSqDEiq_gpegOVMOgCLm5uwLiFp9H3OGdHogQCZhUQPCAFXwMvC69p0YgKKa1OoLs6syRydgSD4o58a4nBVDP8YUJuwNhb9hV7mjaqJ2yGPyFpX-LzmvqA';
+  clientId = '5d8cae4ec74e410d9aa291f5d3f72c85';
+  redirectUri = 'https://fabian-dev.vercel.app/callback';
+  private accessToken = 'BQBlx2JDP3OLB2Ghw48LbM5_600nUb_PJYnATXzykAQim3SAsmkZGdfzX9wz3Xi5f1k0B5b0TfPlnKtvjW1NXZRvxpQC9RwrM_Hwe5h4bUvQ6ggHA_F1cec6IxpgBjVcLO4z-IAfJub0PPEX5hQHVD8mVKJculi88MRuYn0LI2d7yCQK5a4lxg5Abld8TZJNrwHT93LsRkg37dcZvC3YqSgpU373_qMLQKTSMO1F1wpWLg';
   scopes = [
     'user-read-currently-playing',
     'user-read-recently-played',
@@ -23,7 +23,7 @@ export class SpotifyService {
 
   getAuthUrl(): string {
     const scopeParam = this.scopes.join(' ');
-    return `https://accounts.spotify.com/authorize?response_type=token&client_id=${this.clientId}&redirect_uri=${encodeURIComponent(this.redirectUri)}&scope=${encodeURIComponent(scopeParam)}`;
+    return `https://accounts.spotify.com/authorize?response_type=token&client_id=${this.clientId}&redirect_uri=${ encodeURIComponent(this.redirectUri) }&scope=${scopeParam}`;
   }
 
   getCurrentlyPlayingTrack() {
