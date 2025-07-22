@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SpotifyService } from 'src/app/services/spotify.service';
-
+import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-music',
   templateUrl: './music.component.html',
@@ -8,7 +8,7 @@ import { SpotifyService } from 'src/app/services/spotify.service';
 })
 export class MusicComponent implements OnInit {
 
-  song: any = null;
+  currentTrack: any;
   timestamp = Date.now();
 
   readingActivity = {
@@ -39,28 +39,19 @@ export class MusicComponent implements OnInit {
 
   }
 
-  constructor(private spotifyService: SpotifyService) {}
+  constructor(
+    private spotifyService: SpotifyService,
+    private http: HttpClient
+  ) {}
 
   ngOnInit(): void {
-    this.spotifyService.getCurrentlyPlaying().subscribe({
-      next: (data) => this.song = data?.item || null,
-      error: (err) => console.error('Error al obtener la canción:', err),
-    })
-  }
-
-  get songCover(): string {
-    return this.song?.album?.images?.[0]?.url || '';
-  }
-
-  get songTitle(): string {
-    return this.song?.name || '';
-  }
-
-  get songArtist(): string {
-    return this.song?.artists?.[0]?.name || '';
-  }
-
-  get songLink(): string {
-    return this.song?.external_urls?.spotify || '#';
+    const token = localStorage.getItem('spotify_token');
+    if (token) {
+      this.http.get('https://api.spotify.com/v1/me/player/currently-playing', {
+        headers: { Authorization: `Bearer ${token}` },
+      }).subscribe((data) => {
+        this.currentTrack = data;
+      });
+    }
   }
 }
