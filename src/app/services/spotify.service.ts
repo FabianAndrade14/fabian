@@ -23,7 +23,7 @@ export class SpotifyService {
 
   getAuthUrl(): string {
     const scopeParam = this.scopes.join(' ');
-    return `https://accounts.spotify.com/authorize?response_type=token&client_id=${this.clientId}&redirect_uri=${ encodeURIComponent(this.redirectUri) }&scope=${scopeParam}`;
+    return `https://accounts.spotify.com/authorize?response_type=code&client_id=${this.clientId}&redirect_uri=${ encodeURIComponent(this.redirectUri) }&scope=${scopeParam}`;
   }
 
   getCurrentlyPlayingTrack() {
