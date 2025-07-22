@@ -7,21 +7,17 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root',
 })
 export class SpotifyService {
+
+  private accessToken = '';
+
   constructor(private http: HttpClient) {}
 
-  getCurrentlyPlaying(): Observable<any> {
+  getCurrentlyPlayingTrack() {
     const headers = new HttpHeaders({
-      'Content-Type': 'application/json',
+      Authorization: `Bearer ${ this.accessToken }`
     });
+    return this.http.get('https://api.spotify.com/v1/me/player/currently-playing', { headers });
 
-    return this.http.get(`${environment.spotifyApiUrl}`, { headers });
-  }
-
-  private getHeaders(): HttpHeaders {
-    const token = localStorage.getItem('spotify_token');
-    return new HttpHeaders({
-      Authorization: `Bearer ${token}`,
-    });
   }
 }
 //
