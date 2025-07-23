@@ -45,13 +45,6 @@ export class MusicComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    const token = localStorage.getItem('spotify_token');
-    if (token) {
-      this.http.get('https://api.spotify.com/v1/me/player/currently-playing', {
-        headers: { Authorization: `Bearer ${token}` },
-      }).subscribe((data) => {
-        this.currentTrack = data;
-      });
-    }
+
   }
 }
