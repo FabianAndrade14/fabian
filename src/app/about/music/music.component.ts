@@ -33,9 +33,9 @@ export class MusicComponent implements OnInit {
   }
 
   musicActivity = {
-    title: 'High Hopes',
-    author: 'Panic! at the disco',
-    cover: 'https://i1.sndcdn.com/artworks-ur6GPYq7yjSV-0-t500x500.jpg',
+    title: '1973',
+    author: 'James Blunt',
+    cover: 'https://i.scdn.co/image/ab67616d0000b27376c982b180d15c93b8bbd428',
 
   }
 
