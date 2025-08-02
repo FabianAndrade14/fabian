@@ -26,16 +26,16 @@ export class MusicComponent implements OnInit {
   }
 
   comicActivity = {
-    title: 'Peter Parker: The Spectacular Spider-man',
-    issue: '#8, Volume 1',
-    cover: 'https://cdn.marvel.com/u/prod/marvel/i/mg/6/03/5a0626551a786/clean.jpg',
-    progress: 5
+    title: 'Ultimate Spider-Man',
+    issue: '#17, Volume 1',
+    cover: 'https://comicfever.ca/cdn/shop/files/75960620796101711_1024x1024.jpg?v=1748282254',
+    progress: 90
   }
 
   musicActivity = {
-    title: '1973',
-    author: 'James Blunt',
-    cover: 'https://i.scdn.co/image/ab67616d0000b27376c982b180d15c93b8bbd428',
+    title: 'Te necesito',
+    author: 'Luis Miguel',
+    cover: 'https://i.scdn.https://i.scdn.co/image/ab67616d0000b2733bc5251815626cf22fc71b30/image/ab67616d0000b27376c982b180d15c93b8bbd428',
 
   }
 
