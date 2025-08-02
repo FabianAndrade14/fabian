@@ -35,7 +35,7 @@ export class MusicComponent implements OnInit {
   musicActivity = {
     title: 'Te necesito',
     author: 'Luis Miguel',
-    cover: 'https://i.scdn.https://i.scdn.co/image/ab67616d0000b2733bc5251815626cf22fc71b30/image/ab67616d0000b27376c982b180d15c93b8bbd428',
+    cover: 'https://i.scdn.co/image/ab67616d0000b2733bc5251815626cf22fc71b30/image/ab67616d0000b27376c982b180d15c93b8bbd428',
 
   }
 
