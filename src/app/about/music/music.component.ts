@@ -19,9 +19,9 @@ export class MusicComponent implements OnInit {
   };
 
   gamingActivity = {
-    title: 'Metal Gear Solid V: The Phantom Pain',
-    platform: 'Playstation 4',
-    cover: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/mixcollage-06-dec-2024-08-51-pm-8168.jpg?q=50&fit=crop&w=480&dpr=1.5',
+    title: 'Metal Gear Solid 2 Sons of Liberty',
+    platform: 'Playstation 3',
+    cover: 'https://e.snmc.io/lk/lv/x/802c3ab2ebde0601c9da2c6f21602feb/5297942',
     lastPlayed: this.timestamp
   }
 
