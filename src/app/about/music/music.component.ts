@@ -29,13 +29,13 @@ export class MusicComponent implements OnInit {
     title: 'Peter Parker The Spectacular Spider-Man',
     issue: '#9, Volume 1',
     cover: 'https://cdn.marvel.com/u/prod/marvel/i/mg/8/b0/5a0625ca1b6b8/portrait_uncanny.jpg',
-    progress: 10
+    progress: 60
   }
 
   musicActivity = {
-    title: 'Cry',
-    author: 'Benson Boone',
-    cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG6y8Qe3hvTKNSxyBos8_Vdm-adIf3Ez1hcg&s',
+    title: 'Judas',
+    author: 'Lady Gaga',
+    cover: 'https://i.scdn.co/image/ab67616d0000b2736d2bc35812c2d7f67d110e48',
 
   }
 
