@@ -33,9 +33,9 @@ export class MusicComponent implements OnInit {
   }
 
   musicActivity = {
-    title: 'Judas',
-    author: 'Lady Gaga',
-    cover: 'https://i.scdn.co/image/ab67616d0000b2736d2bc35812c2d7f67d110e48',
+    title: 'Ready to Go (Get Me Out of My Mind)',
+    author: 'Panic! At The Disco',
+    cover: 'https://i.scdn.co/image/ab67616d0000b273d8f40ad88ed77a939b716d19',
 
   }
 
