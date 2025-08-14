@@ -14,7 +14,7 @@ export class MusicComponent implements OnInit {
   readingActivity = {
     title: 'El Psicoanalista',
     author: 'John Katzenbach',
-    progress: 5,
+    progress: 10,
     cover: 'https://www.tornamesa.co/imagenes_grandes/9786287/978628763426.GIF'
   };
 
