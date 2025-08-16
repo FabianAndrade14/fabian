@@ -14,7 +14,7 @@ export class MusicComponent implements OnInit {
   readingActivity = {
     title: 'El Psicoanalista',
     author: 'John Katzenbach',
-    progress: 20,
+    progress: 20 ,
     cover: 'https://www.tornamesa.co/imagenes_grandes/9786287/978628763426.GIF'
   };
 
@@ -33,9 +33,9 @@ export class MusicComponent implements OnInit {
   }
 
   musicActivity = {
-    title: 'Ready to Go (Get Me Out of My Mind)',
-    author: 'Panic! At The Disco',
-    cover: 'https://i.scdn.co/image/ab67616d0000b273d8f40ad88ed77a939b716d19',
+    title: 'Love Somebody',
+    author: 'Maroon 5',
+    cover: 'https://i.scdn.co/image/ab67616d0000b273ce7d499847da02a9cbd1c084',
 
   }
 
