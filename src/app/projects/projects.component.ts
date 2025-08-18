@@ -9,7 +9,7 @@ export class ProjectsComponent {
   projects = [
     {
     title: 'ECommmerceAPI',
-    image: 'https://icon-library.com/images/e-commerce-icon/e-commerce-icon-4.jpg',
+    image: '../assets/img/Projects/ecommerce.png',
     stars: 1,
     description: 'API created using .NET',
     link: 'https://github.com/FabianAndrade14/EcommerceAPI'
@@ -30,7 +30,7 @@ export class ProjectsComponent {
   },
   {
     title: 'Gif Expert',
-    image: 'https://icon-library.com/images/image-icon-png/image-icon-png-6.jpg',
+    image: '../assets/img/Projects/gifexpert.jpg',
     stars: 4,
     description: 'Take a look to your favourite gifs',
     link: 'https://github.com/FabianAndrade14/GifExpertApp'
