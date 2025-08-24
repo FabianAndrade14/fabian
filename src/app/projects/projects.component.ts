@@ -55,7 +55,14 @@ export class ProjectsComponent {
     stars: 4,
     description: 'API developed with node',
     link: 'https://github.com/FabianAndrade14/catchyHeroPhrases',
-  }
+  },
+  {
+    title: 'Brands API',
+    image: 'https://cdn-icons-png.flaticon.com/512/5651/5651266.png',
+    stars: 1,
+    description: 'API developed with Python (FastAPI)',
+    link: 'https://github.com/FabianAndrade14/brands-api',
+  },
 
   ]
 }
