@@ -33,9 +33,9 @@ export class MusicComponent implements OnInit {
   }
 
   musicActivity = {
-    title: 'Hold On',
-    author: 'Jet',
-    cover: 'https://i.scdn.co/image/ab67616d0000b273842c0371f46cf43e252f982e',
+    title: 'Lying Is the Most Fun a Girl Can Have Without Taking Her Clothes Off',
+    author: 'Panic! At The Disco',
+    cover: 'https://images.genius.com/2327b51c5b9eb15a21639c42beba2311.1000x1000x1.png',
 
   }
 
