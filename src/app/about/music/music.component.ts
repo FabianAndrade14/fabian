@@ -27,9 +27,9 @@ export class MusicComponent implements OnInit {
 
   comicActivity = {
     title: 'Peter Parker The Spectacular Spider-Man',
-    issue: '#15, Volume 1',
-    cover: 'https://cdn.marvel.com/u/prod/marvel/i/mg/6/00/5a0626a42ab89/clean.jpg',
-    progress: 11
+    issue: '#16, Volume 1',
+    cover: 'https://static.wikia.nocookie.net/spiderman/images/4/47/Peter_Parker%2C_The_Spectacular_Spider-Man_Vol_1_16.png/revision/latest/thumbnail/width/360/height/450?cb=20200421163925&path-prefix=es',
+    progress: 36
   }
 
   musicActivity = {
