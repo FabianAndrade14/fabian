@@ -33,9 +33,9 @@ export class MusicComponent implements OnInit {
   }
 
   musicActivity = {
-    title: 'What It Sounds Like',
-    author: 'HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast',
-    cover: 'https://i1.sndcdn.com/artworks-rQp07z27BM1sjRzW-PCW3cg-t500x500.png',
+    title: 'Snake Eater',
+    author: 'Cynthia Harrell',
+    cover: 'https://i.scdn.co/image/ab67616d0000b273692200d20ace9f3500171527',
 
   }
 
