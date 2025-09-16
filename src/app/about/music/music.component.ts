@@ -33,9 +33,9 @@ export class MusicComponent implements OnInit {
   }
 
   musicActivity = {
-    title: 'Snake Eater',
-    author: 'Cynthia Harrell',
-    cover: 'https://i.scdn.co/image/ab67616d0000b273692200d20ace9f3500171527',
+    title: 'Again',
+    author: 'YUI',
+    cover: 'https://i.scdn.co/image/ab67616d00001e02fdec3ee19da7cd9b1b02ca9c',
 
   }
 
