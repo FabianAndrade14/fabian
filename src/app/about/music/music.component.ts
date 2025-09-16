@@ -19,7 +19,7 @@ export class MusicComponent implements OnInit {
   };
 
   gamingActivity = {
-    title: 'Metal Gear Solid 2 Sons of Liberty',
+    title: 'Metal Gear Solid 3 Snake Eater',
     platform: 'Playstation 3',
     cover: 'https://e.snmc.io/lk/lv/x/802c3ab2ebde0601c9da2c6f21602feb/5297942',
     lastPlayed: this.timestamp
