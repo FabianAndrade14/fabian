@@ -15,7 +15,7 @@ export class MusicComponent implements OnInit {
     title: 'El Psicoanalista',
     author: 'John Katzenbach',
     progress: 20 ,
-    cover: 'https://www.tornamesa.co/imagenes_grandes/9786287/978628763426.GIF'
+    cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1nccrYxfCU_Dab1J5GS7HLdxWfRCGoiKZww&s'
   };
 
   gamingActivity = {
