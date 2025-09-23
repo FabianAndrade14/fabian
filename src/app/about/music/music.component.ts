@@ -33,9 +33,9 @@ export class MusicComponent implements OnInit {
   }
 
   musicActivity = {
-    title: 'Save You',
-    author: 'Simple Plan',
-    cover: 'https://images.genius.com/342764bac5b75297fd9fe2756683ecfa.1000x1000x1.jpg',
+    title: 'Swing (From "Marvel Spider-man 2")',
+    author: 'EARTHGANG, Benji.',
+    cover: 'https://cdn-images.dzcdn.net/images/cover/43ef8fcf4314459c8c8e49906e748c06/0x1900-000000-80-0-0.jpg',
 
   }
 
