@@ -19,9 +19,9 @@ export class MusicComponent implements OnInit {
   };
 
   gamingActivity = {
-    title: 'Metal Gear Solid 3 Snake Eater',
-    platform: 'Playstation 3',
-    cover: 'https://e.snmc.io/lk/lv/x/802c3ab2ebde0601c9da2c6f21602feb/5297942',
+    title: 'Marvel\'s Spider-Man',
+    platform: 'Playstation 4',
+    cover: 'https://image.api.playstation.com/vulcan/ap/rnd/202011/0402/C784xeOFo2wViCf4m5bxgoeH.png',
     lastPlayed: this.timestamp
   }
 
