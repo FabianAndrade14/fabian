@@ -12,6 +12,7 @@ import { HeaderComponent } from './main/header/header.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { GameActivityComponent } from './about/game-activity/game-activity.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ProjectsComponent } from './projects/projects.component';
     HeaderComponent,
     AboutComponent,
     HomeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    GameActivityComponent
   ],
   imports: [
     BrowserModule,

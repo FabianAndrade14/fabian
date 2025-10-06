@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { SpotifyService } from 'src/app/services/spotify.service';
 import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-music',
   templateUrl: './music.component.html',
@@ -39,10 +40,47 @@ export class MusicComponent implements OnInit {
 
   }
 
+  private konamiCode: string[] = [
+    'ArrowUp',
+    'ArrowUp',
+    'ArrowDown',
+    'ArrowDown',
+    'ArrowLeft',
+    'ArrowRight',
+    'ArrowLeft',
+    'ArrowRight',
+    'b',
+    'a',
+  ]
+
+  private currentIndex = 0;
+
   constructor(
     private spotifyService: SpotifyService,
-    private http: HttpClient
+    private http: HttpClient,
+    private router: Router
   ) {}
+
+  @HostListener('document:keydown', ['$event'])
+  handleKeyboardEvent(event: KeyboardEvent) {
+    if (event.key === this.konamiCode[this.currentIndex]) {
+      this.currentIndex++;
+      if (this.currentIndex === this.konamiCode.length) {
+        this.activateKonami();
+        this.currentIndex = 0;
+      }
+    } else {
+      this.currentIndex = 0;
+    }
+  }
+
+  private activateKonami() {
+    alert('Konami Code Activado 🕹️');
+
+    sessionStorage.setItem('konamiUnlocked', 'true');
+
+    this.router.navigate(['/about/game-activity']);
+  }
 
   ngOnInit(): void {
 
