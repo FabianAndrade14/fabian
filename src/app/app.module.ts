@@ -26,7 +26,7 @@ import { GameActivityComponent } from './about/game-activity/game-activity.compo
     AboutComponent,
     HomeComponent,
     ProjectsComponent,
-    GameActivityComponent
+    GameActivityComponent,
   ],
   imports: [
     BrowserModule,
