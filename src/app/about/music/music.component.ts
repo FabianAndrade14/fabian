@@ -28,8 +28,8 @@ export class MusicComponent implements OnInit {
 
   comicActivity = {
     title: 'The Amazing Spider-man',
-    issue: '#12, Volume 7',
-    cover: 'https://cdn.marvel.com/u/prod/marvel/i/mg/9/e0/68b9f0d0199fa/portrait_uncanny.jpg',
+    issue: '#13, Volume 7',
+    cover: 'https://cdn.marvel.com/u/prod/marvel/i/mg/d/90/68c9b5d6df78d/portrait_uncanny.jpg',
     progress: 40
   }
 
