@@ -19,14 +19,35 @@
       <div class="activity-subtitle">{{ readingActivity.author }}</div>
     </div>
   </div>
+
   <div class="activity-card">
-    <img [src]="musicActivity.cover" alt="Album cover" />
-    <div class="activity-content">
-      <div class="activity-type">LAST PLAYED</div>
-      <div class="activity-title">{{ musicActivity.title }}</div>
-      <div class="activity-subtitle">{{ musicActivity.author }}</div>
-    </div>
+
+    <!-- SI NO hay sesión Spotify -->
+    <ng-container *ngIf="!isSpotifyLoggedIn; else spotifyContent">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/HD_transparent_picture.png" alt="No cover" />
+      <div class="activity-content">
+        <div class="activity-type">SPOTIFY</div>
+        <div class="activity-title">No conectado</div>
+        <div class="activity-subtitle">Pulsa para iniciar sesión</div>
+
+        <button class="spotify-btn" (click)="loginWithSpotify()">
+          Conectar con Spotify
+        </button>
+      </div>
+    </ng-container>
+
+    <!-- SI HAY SESIÓN -->
+    <ng-template #spotifyContent>
+      <img [src]="musicActivity.cover" alt="Album cover" />
+      <div class="activity-content">
+        <div class="activity-type">NOW PLAYING</div>
+        <div class="activity-title">{{ musicActivity.title }}</div>
+        <div class="activity-subtitle">{{ musicActivity.author }}</div>
+      </div>
+    </ng-template>
+
   </div>
+
 
   <div class="activity-card">
     <img [src]="comicActivity.cover" alt="Libro" />

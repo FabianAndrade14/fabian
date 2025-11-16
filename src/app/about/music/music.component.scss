@@ -72,3 +72,19 @@
   font-size: 0.85rem;
   color: #ccc;
 }
+
+.spotify-btn {
+  background-color: #1DB954;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 600;
+  transition: opacity .2s;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}

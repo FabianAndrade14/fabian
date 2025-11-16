@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CallbackComponent } from './about/callback/callback.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
@@ -16,7 +15,7 @@ const routes: Routes = [
     canActivate: [KonamiGuard]
   },
   { path: 'projects', component: ProjectsComponent },
-  { path: 'callback', component: CallbackComponent },
+  { path: 'callback', loadComponent: () => import('./spotify/callback/callback.component').then(m => m.CallbackComponent) },
 ];
 
 @NgModule({

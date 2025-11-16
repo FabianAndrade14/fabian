@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { SpotifyService } from 'src/app/services/spotify.service';
+
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -7,10 +8,9 @@ import { SpotifyService } from 'src/app/services/spotify.service';
 })
 export class HeaderComponent {
   isMobileMenuOpen = false;
-  authUrl: string;
 
-  constructor(private spotify: SpotifyService) {
-    this.authUrl = this.spotify.getAuthUrl();
+  constructor() {
+
   }
 
   toggleMobileMenu() {
