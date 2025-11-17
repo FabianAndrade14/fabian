@@ -20,9 +20,9 @@ export class MusicComponent implements OnInit {
   };
 
   gamingActivity = {
-    title: 'Marvel\'s Spider-Man',
+    title: 'Batman Arkham City',
     platform: 'Playstation 4',
-    cover: 'https://image.api.playstation.com/vulcan/ap/rnd/202011/0402/C784xeOFo2wViCf4m5bxgoeH.png',
+    cover: 'https://cdn-images.dzcdn.net/images/cover/9b74a7816f56acb4279a64ef23d086f5/0x1900-000000-80-0-0.jpg',
     lastPlayed: this.timestamp
   }
 
