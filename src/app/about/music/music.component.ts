@@ -34,9 +34,9 @@ export class MusicComponent implements OnInit {
   }
 
   musicActivity = {
-    title: 'Swing (From "Marvel Spider-man 2")',
-    author: 'EARTHGANG, Benji.',
-    cover: 'https://cdn-images.dzcdn.net/images/cover/43ef8fcf4314459c8c8e49906e748c06/0x1900-000000-80-0-0.jpg',
+    title: 'You Get What You Give',
+    author: 'New Radicals',
+    cover: 'https://i.scdn.co/image/ab67616d0000b27387e512c79842c7ed2a8f2035',
 
   }
 
