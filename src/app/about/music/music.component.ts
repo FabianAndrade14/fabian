@@ -20,16 +20,16 @@ export class MusicComponent implements OnInit {
   };
 
   gamingActivity = {
-    title: 'Batman Arkham City',
+    title: 'Batman Arkham Knight',
     platform: 'Playstation 4',
-    cover: 'https://cdn-images.dzcdn.net/images/cover/9b74a7816f56acb4279a64ef23d086f5/0x1900-000000-80-0-0.jpg',
+    cover: 'https://image.api.playstation.com/gs2-sec/acpkgo/prod/CUSA00133_00/374/i_21516ca32977519346e7b5cbf52fcadf722998b0d0a781fbeeea687cd3dca173/i/icon0.png',
     lastPlayed: this.timestamp
   }
 
   comicActivity = {
-    title: 'The Spectacular Spider-man',
-    issue: '#20, Volume 1',
-    cover: 'https://m.media-amazon.com/images/I/61mRxjDnaKL._AC_UF1000,1000_QL80_.jpg',
+    title: 'The Amazing Spider-man',
+    issue: '#15, Volume 7',
+    cover: 'https://cdn.marvel.com/u/prod/marvel/i/mg/6/10/6903b731f13eb/portrait_uncanny.jpg',
     progress: 40
   }
 
