@@ -46,4 +46,15 @@
     display: block;
     margin-bottom: 0.25rem;
   }
+
+  .game-card {
+    width: 100%;
+    margin: 3rem auto;
+    text-align: center;
+  }
+
+  .game-card img {
+    width: 940px;
+    max-width: 100%;
+  }
 }
