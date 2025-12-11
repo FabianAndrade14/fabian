@@ -1,31 +1,60 @@
-<div class="game-activity-container">
-  <h2 class="title">🎮 Mi Trayectoria Gamer</h2>
-  <p class="intro">
-    Desde mis primeros pasos con un mando en la mano hasta hoy, los videojuegos han sido parte esencial de mi historia.
-  </p>
+<div class="wrapup-container">
+  <!-- Slider compacto -->
+  <div class="slider-wrapper">
+    <button class="nav-button left" (click)="prevSlide()">‹</button>
 
-  <div class="timeline">
-    <div class="milestone">
-      <span class="year">2005</span>
-      <p>Descubrí mi primera consola: PlayStation 2.</p>
+    <div class="season-slider">
+      <div class="slide" *ngFor="let slide of slides" [style.background-image]="'url(' + slide.image + ')'">
+        <div class="slide-info">
+          <h3>{{ slide.title }}</h3>
+          <span>{{ slide.platform }}</span>
+        </div>
+      </div>
     </div>
-    <div class="milestone">
-      <span class="year">2013</span>
-      <p>Me enamoré del universo de *Marvel’s Spider-Man* y el storytelling en los videojuegos.</p>
-    </div>
-    <div class="milestone">
-      <span class="year">2020</span>
-      <p>Comencé a analizar juegos como experiencias narrativas y técnicas.</p>
-    </div>
-    <div class="milestone">
-      <span class="year">Hoy</span>
-      <p>Combino mi pasión por el desarrollo con mi amor por los videojuegos.</p>
+
+    <button class="nav-button right" (click)="nextSlide()">›</button>
+  </div>
+
+  <!-- Cards compactas -->
+  <h2 class="section-title ps-title">Temporada Navideña </h2>
+
+  <div class="games-grid">
+    <div class="game-card" *ngFor="let game of seasonalGames">
+      <div class="game-img" [style.background-image]="'url(' + game.image + ')'"></div>
+      <div class="game-info">
+        <h3>{{ game.title }}</h3>
+        <span>{{ game.platform }}</span>
+      </div>
     </div>
   </div>
-  <div class="game-card">
-    <a href="https://psnprofiles.com/FABIAGO11" target="_blank">
-      <img src="https://card.psnprofiles.com/2/FABIAGO11.png" alt="PSN Profile">
-    </a>
-  </div>
+
+  <section class="ps-insights">
+    <h2 class="ps-title">PlayStation Insights</h2>
+
+    <div class="insights-grid">
+      <div class="ps-card" *ngFor="let insight of psInsights">
+        <div class="ps-style">{{ insight.style }}</div>
+
+        <div class="ps-data">
+          <div><span class="icon">🎮</span> Títulos jugados <strong>{{ insight.titles }}</strong></div>
+          <div><span class="icon">🏆</span> Total de trofeos <strong>{{ insight.trophies }}</strong></div>
+          <div><span class="icon">⏱️</span> Horas jugadas <strong>{{ insight.hours }}</strong></div>
+          <div><span class="icon">👥</span> Horas de multijugador <strong>{{ insight.multiplayerHours }}</strong></div>
+        </div>
+
+        <div class="ps-favorite">
+          <div class="tag">MI JUEGO PREFERIDO</div>
+          <img [src]="insight.favoriteGameImg" alt="{{ insight.favoriteGameName }}" />
+          <p class="favorite-title">{{ insight.favoriteGameName }}</p>
+        </div>
+
+        <div class="ps-footer">WRAP-UP</div>
+        <div class="ps-year">{{ insight.year }}</div>
+
+
+      </div>
+    </div>
+  </section>
+
+
 </div>
-
