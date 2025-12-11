@@ -1,28 +1,5 @@
 import { Component, AfterViewInit } from '@angular/core';
-
-interface Slide {
-  title: string;
-  platform: string;
-  image: string;
-}
-
-interface SeasonalGame {
-  title: string;
-  platform: string;
-  image: string;
-}
-
-interface PSInsight {
-  year: number;
-  style: string;
-  titles: number;
-  trophies: number;
-  hours: number;
-  multiplayerHours: number;
-  favoriteGameImg: string;
-  favoriteGameName: string;
-}
-
+import { Slide, SeasonalGame, PSInsight, NintendoInsights, SteamInsight } from '../../shared/interfaces/game-activity.interface';
 @Component({
   selector: 'app-game-activity',
   templateUrl: './game-activity.component.html',
@@ -105,6 +82,59 @@ export class GameActivityComponent implements AfterViewInit {
     },
   ];
 
+  nintendoInsights: NintendoInsights[] = [
+    {
+      year: 2024,
+      style: 'Action-RPG Adventurer',
+      titles: 25,
+      hours: 177,
+      favoriteGameImg:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7jEdQgPsN4k7aRSxftgS4Y_WSGUT1L_RhXg&s',
+      favoriteGameName: 'Dragon Ball Z Kakarot',
+    },
+    {
+      year: 2023,
+      style: 'Adventurer',
+      titles: 17,
+      hours: 173,
+      favoriteGameImg:
+        'https://images.wallpapersden.com/image/download/zelda-tears-of-the-kingdom-4k_bmZuZ26UmZqaraWkpJRobWllrWdma2U.jpg',
+      favoriteGameName: 'The Legend of Zelda: Tears of the Kingdom',
+    },
+  ]
+
+  steamInsights: SteamInsight[] = [
+    {
+      year: 2024,
+      style: 'Nightfall Warrior',
+      titles: 2,
+      achievements: 557,
+      hours: 7,
+      favoriteGameImg:
+        'https://i.redd.it/dewyeh1aul241.png',
+      favoriteGameName: 'Resident Evil 3',
+    },
+    {
+      year: 2023,
+      style: 'Retro Hackmaster',
+      titles: 7,
+      achievements: 166,
+      hours: 110,
+      favoriteGameImg:
+        'https://image.api.playstation.com/vulcan/ap/rnd/202009/3021/QeJWAaLcYNOpCv7yCVZZEOY5.jpg?w=440',
+      favoriteGameName: 'Marvel\'s Spider-Man Remastered',
+    },
+    {
+      year: 2022,
+      style: 'Dynamic Worldfighter',
+      titles: 7,
+      achievements: 52,
+      hours: 64,
+      favoriteGameImg:
+        'https://image.api.playstation.com/vulcan/ap/rnd/202009/3021/QeJWAaLcYNOpCv7yCVZZEOY5.jpg?w=440',
+      favoriteGameName: 'Marvel\'s Spider-Man Remastered',
+    },
+  ]
   ngAfterViewInit(): void {
     setTimeout(() => this.updateSliderPosition(), 50);
   }

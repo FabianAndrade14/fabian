@@ -317,3 +317,44 @@
   text-align: right;
 }
 
+// Nintendo Insights
+.nintendo-insights {
+  margin-top: 40px;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+}
+
+.nintendo-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  border-left: 4px solid #c0392b;
+  padding-left: 0.75rem;
+}
+
+// Steam Insights
+.steam-insights {
+  margin-top: 40px;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+}
+
+.steam-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  border-left: 4px solid #273c75;
+  padding-left: 0.75rem;
+}

@@ -56,5 +56,57 @@
     </div>
   </section>
 
+  <section class="nintendo-insights">
+    <h2 class="nintendo-title">Nintendo Insights</h2>
+
+    <div class="insights-grid">
+      <div class="ps-card" *ngFor="let insight of nintendoInsights">
+        <div class="ps-style">{{ insight.style }}</div>
+
+        <div class="ps-data">
+          <div><span class="icon">🎮</span> Títulos jugados <strong>{{ insight.titles }}</strong></div>
+          <div><span class="icon">⏱️</span> Horas jugadas <strong>{{ insight.hours }}</strong></div>
+        </div>
+
+        <div class="ps-favorite">
+          <div class="tag">MI JUEGO PREFERIDO</div>
+          <img [src]="insight.favoriteGameImg" alt="{{ insight.favoriteGameName }}" />
+          <p class="favorite-title">{{ insight.favoriteGameName }}</p>
+        </div>
+
+        <div class="ps-footer">WRAP-UP</div>
+        <div class="ps-year">{{ insight.year }}</div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="steam-insights">
+    <h2 class="steam-title">Steam Insights</h2>
+
+    <div class="insights-grid">
+      <div class="ps-card" *ngFor="let insight of steamInsights">
+        <div class="ps-style">{{ insight.style }}</div>
+
+        <div class="ps-data">
+          <div><span class="icon">🎮</span> Títulos jugados <strong>{{ insight.titles }}</strong></div>
+          <div><span class="icon">🏆</span> Total de logros <strong>{{ insight.achievements }}</strong></div>
+          <div><span class="icon">⏱️</span> Horas jugadas <strong>{{ insight.hours }}</strong></div>
+        </div>
+
+        <div class="ps-favorite">
+          <div class="tag">MI JUEGO PREFERIDO</div>
+          <img [src]="insight.favoriteGameImg" alt="{{ insight.favoriteGameName }}" />
+          <p class="favorite-title">{{ insight.favoriteGameName }}</p>
+        </div>
+
+        <div class="ps-footer">WRAP-UP</div>
+        <div class="ps-year">{{ insight.year }}</div>
+
+
+      </div>
+    </div>
+  </section>
 
 </div>
