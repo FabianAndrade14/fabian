@@ -13,7 +13,7 @@ const routes: Routes = [
   {
     path: 'about/game-activity',
     component: GameActivityComponent,
-    canActivate: [KonamiGuard]
+    // canActivate: [KonamiGuard]
   },
   { path: 'projects', component: ProjectsComponent },
   { path: 'callback', component: CallbackComponent },
