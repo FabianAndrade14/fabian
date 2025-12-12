@@ -84,6 +84,15 @@ export class GameActivityComponent implements AfterViewInit {
 
   nintendoInsights: NintendoInsights[] = [
     {
+      year: 2025,
+      style: 'Action-RPG Adventurer',
+      titles: 25,
+      hours: 177,
+      favoriteGameImg:
+        'https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_MetalGearSolid3SnakeEaterMasterCollectionVersion.jpg',
+      favoriteGameName: 'Metal Gear Solid Master Collection',
+    },
+    {
       year: 2024,
       style: 'Action-RPG Adventurer',
       titles: 25,
@@ -101,9 +110,28 @@ export class GameActivityComponent implements AfterViewInit {
         'https://images.wallpapersden.com/image/download/zelda-tears-of-the-kingdom-4k_bmZuZ26UmZqaraWkpJRobWllrWdma2U.jpg',
       favoriteGameName: 'The Legend of Zelda: Tears of the Kingdom',
     },
+    {
+      year: 2021,
+      style: 'Open-World Hero',
+      titles: 2,
+      hours: 130,
+      favoriteGameImg:
+        'https://automationpanda.com/wp-content/uploads/2018/06/botw-share_icon.jpg',
+      favoriteGameName: 'The Legend of Zelda: Tears of the Kingdom',
+    },
   ]
 
   steamInsights: SteamInsight[] = [
+    {
+      year: 2025,
+      style: 'Shōnen Brawler',
+      titles: 2,
+      achievements: 557,
+      hours: 7,
+      favoriteGameImg:
+        'https://wallpapercave.com/wp/wp5790073.jpg',
+      favoriteGameName: 'My Hero One\'s Justice 2',
+    },
     {
       year: 2024,
       style: 'Nightfall Warrior',
