@@ -20,9 +20,9 @@ export class MusicComponent implements OnInit {
   };
 
   gamingActivity = {
-    title: 'Batman Arkham Knight',
-    platform: 'Playstation 4',
-    cover: 'https://image.api.playstation.com/gs2-sec/acpkgo/prod/CUSA00133_00/374/i_21516ca32977519346e7b5cbf52fcadf722998b0d0a781fbeeea687cd3dca173/i/icon0.png',
+    title: 'Batman Arkham Origins',
+    platform: 'Playstation 3',
+    cover: 'https://www.gamesfromquebec.com/wp-content/uploads/2020/04/WB-Games-Montr%C3%A9al_Batman-Arkham-Origins.jpeg',
     lastPlayed: this.timestamp
   }
 
@@ -34,9 +34,9 @@ export class MusicComponent implements OnInit {
   }
 
   musicActivity = {
-    title: 'You Get What You Give',
-    author: 'New Radicals',
-    cover: 'https://i.scdn.co/image/ab67616d0000b27387e512c79842c7ed2a8f2035',
+    title: 'Stop and Stare',
+    author: 'OneRepublic',
+    cover: 'https://i.scdn.co/image/ab67616d0000b2732ea3e333d19679b10e888f4d',
 
   }
 
