@@ -28,8 +28,8 @@ export class MusicComponent implements OnInit {
 
   comicActivity = {
     title: 'The Ultimates',
-    issue: '#11, Volume 1',
-    cover: 'https://cdn.marvel.com/u/prod/marvel/i/mg/1/b0/6791568474df7/clean.jpg',
+    issue: '#12, Volume 1',
+    cover: 'https://cdn.marvel.com/u/prod/marvel/i/mg/9/e0/6826063442400/clean.jpg',
     progress: 40
   }
 
