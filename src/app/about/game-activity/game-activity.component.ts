@@ -125,9 +125,9 @@ export class GameActivityComponent implements AfterViewInit {
     {
       year: 2025,
       style: 'Shōnen Brawler',
-      titles: 2,
-      achievements: 557,
-      hours: 7,
+      titles: 6,
+      achievements: 53,
+      hours: 110,
       favoriteGameImg:
         'https://wallpapercave.com/wp/wp5790073.jpg',
       favoriteGameName: 'My Hero One\'s Justice 2',
