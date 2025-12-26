@@ -1,3 +1,5 @@
+import { GameAchievement } from "./recentAchievement.interface";
+
 export interface Slide {
   title: string;
   platform: string;
@@ -8,6 +10,8 @@ export interface SeasonalGame {
   title: string;
   platform: string;
   image: string;
+  achievements: GameAchievement[];
+
 }
 
 export interface PSInsight {

@@ -74,25 +74,38 @@
 }
 
 .game-card {
+  position: relative;
   background: rgba(0, 0, 0, 0.55);
-  border-radius: 14px;
+  border-radius: 16px;
   overflow: hidden;
-  transition: transform 0.2s ease;
+  padding-bottom: 70px; // espacio para el logro
 }
+
 
 .game-card:hover {
   transform: scale(1.02);
 }
 
 .game-img {
-  height: 240px;
+  height: 220px;
   background-size: cover;
   background-position: center;
 }
 
 .game-info {
-  padding: 10px 15px;
+  padding: 10px 14px;
+
+  h3 {
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  span {
+    font-size: 0.75rem;
+    opacity: 0.7;
+  }
 }
+
 
 // Estilos para las cards
 
@@ -358,3 +371,75 @@
   border-left: 4px solid #273c75;
   padding-left: 0.75rem;
 }
+
+.achievement-list {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.achievement-card {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  background: #1f2f3a;
+  padding: 10px 14px;
+  border-radius: 12px;
+
+  font-size: 0.75rem;
+}
+
+
+.achievement-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+}
+
+
+.achievement-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  strong {
+    font-size: 0.8rem;
+  }
+
+  span {
+    opacity: 0.7;
+    font-size: 0.7rem;
+  }
+}
+
+.achievement-date {
+  font-size: 0.65rem;
+  opacity: 0.6;
+  white-space: nowrap;
+}
+
+.achievement-info span {
+  opacity: 0.7;
+  font-size: 0.8rem;
+}
+
+.achievement-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+/* Trofeos */
+.trophy.bronze { color: #cd7f32; }
+.trophy.silver { color: #c0c0c0; }
+.trophy.gold { color: #ffd700; }
+.trophy.platinum { color: #8be9fd; }

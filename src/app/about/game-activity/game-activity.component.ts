@@ -28,11 +28,29 @@ export class GameActivityComponent implements AfterViewInit {
       platform: 'PS3',
       image:
         'https://wallpapers.com/images/hd/batman-arkham-origins-wallpaper-f1sips36ia9c56o2.jpg',
+      achievements: [
+        {
+          title: 'Counter-intelligence',
+          description: 'Decipher one Extortion File',
+          date: '25/12/2025 5:35 p. m.',
+          icon: 'https://static.stratege.ru/trophies/NPWR04151_00/TROP008.PNG',
+          trophyType: 'bronze',
+        },
+      ],
     },
     {
       title: "Marvel's Spider-Man: Miles Morales",
       platform: 'PS5',
       image: 'https://images.alphacoders.com/129/1292613.png',
+      achievements: [
+        {
+          title: 'Sé quien eres',
+          description: 'Obtén todos los trofeos.',
+          date: '5/1/2024 8:28 p. m.',
+          icon: 'https://i.psnprofiles.com/games/310204/trophies/1L954d81.png',
+          trophyType: 'platinum',
+        },
+      ],
     },
   ];
 

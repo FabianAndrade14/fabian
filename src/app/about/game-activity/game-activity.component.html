@@ -20,13 +20,42 @@
 
   <div class="games-grid">
     <div class="game-card" *ngFor="let game of seasonalGames">
-      <div class="game-img" [style.background-image]="'url(' + game.image + ')'"></div>
+
+      <!-- Imagen principal -->
+      <div
+        class="game-img"
+        [style.background-image]="'url(' + game.image + ')'"
+      ></div>
+
+      <!-- Info del juego -->
       <div class="game-info">
         <h3>{{ game.title }}</h3>
         <span>{{ game.platform }}</span>
       </div>
+
+      <!-- Logros recientes -->
+      <div class="achievement-list">
+        <div
+          class="achievement-card"
+          *ngFor="let ach of game.achievements"
+        >
+          <img class="achievement-icon" [src]="ach.icon" />
+
+          <div class="achievement-info">
+            <strong>{{ ach.title }}</strong>
+            <span>{{ ach.description }}</span>
+          </div>
+
+          <div class="achievement-meta">
+            <span class="achievement-date">{{ ach.date }}</span>
+            <span class="trophy" [ngClass]="ach.trophyType">🏆</span>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
+
 
   <section class="ps-insights">
     <h2 class="ps-title">PlayStation Insights</h2>
