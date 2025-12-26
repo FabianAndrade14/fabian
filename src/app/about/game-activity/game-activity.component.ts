@@ -30,10 +30,10 @@ export class GameActivityComponent implements AfterViewInit {
         'https://wallpapers.com/images/hd/batman-arkham-origins-wallpaper-f1sips36ia9c56o2.jpg',
       achievements: [
         {
-          title: 'Counter-intelligence',
-          description: 'Decipher one Extortion File',
-          date: '25/12/2025 5:35 p. m.',
-          icon: 'https://static.stratege.ru/trophies/NPWR04151_00/TROP008.PNG',
+          title: 'The Innocent and the Predatory',
+          description: 'Capture all of Black Mask\'s Assassins',
+          date: '25/12/2025 10:03 p. m.',
+          icon: 'https://images.steamusercontent.com/ugc/2446097979744522052/1E1D2FF4DFC0B6C5C07309278E7CF2816019D149/',
           trophyType: 'bronze',
         },
       ],
