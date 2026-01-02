@@ -10,45 +10,45 @@ export class GameActivityComponent implements AfterViewInit {
 
   slides: Slide[] = [
     {
-      title: 'Batman Arkham Origins',
-      platform: 'PS3',
+      title: 'Final Fantasy VII',
+      platform: 'PS4',
       image:
-        'https://wallpapers.com/images/hd/batman-arkham-origins-wallpaper-f1sips36ia9c56o2.jpg',
+        'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqzHPbYPkGFa2zU-U-d_RHug9NsInB8bWNufBClN82xeE-Hv5cSNTPd0OBHm2_DuIK1cQgzMGq7fHZzxN149PuvfXRjRa5RvmA2aTlFEsTTWN_97uqvLQJWyMafCMlt444y8RBpCSPHmhjCBivdliixRa8WgWohoJ0rpr4DSRKjlT-uA5kcciyKBlX/s1280/FF7%20Orginal.jpeg',
     },
     {
       title: "Marvel's Spider-Man: Miles Morales",
       platform: 'PS5',
-      image: 'https://images.alphacoders.com/129/1292613.png',
+      image: 'https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA00394_00/2/i_38d9df9db9dddcf6d789cce243878381bfed78d9e2091268e167d7be200ee2dc/i/pic0.png',
     },
   ];
 
   seasonalGames: SeasonalGame[] = [
     {
-      title: 'Batman Arkham Origins',
-      platform: 'PS3',
+      title: 'Final Fantasy VII',
+      platform: 'PS4',
       image:
-        'https://wallpapers.com/images/hd/batman-arkham-origins-wallpaper-f1sips36ia9c56o2.jpg',
+        'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqzHPbYPkGFa2zU-U-d_RHug9NsInB8bWNufBClN82xeE-Hv5cSNTPd0OBHm2_DuIK1cQgzMGq7fHZzxN149PuvfXRjRa5RvmA2aTlFEsTTWN_97uqvLQJWyMafCMlt444y8RBpCSPHmhjCBivdliixRa8WgWohoJ0rpr4DSRKjlT-uA5kcciyKBlX/s1280/FF7%20Orginal.jpeg',
       achievements: [
         {
-          title: 'The Innocent and the Predatory',
-          description: 'Capture all of Black Mask\'s Assassins',
-          date: '25/12/2025 10:03 p. m.',
-          icon: 'https://images.steamusercontent.com/ugc/2446097979744522052/1E1D2FF4DFC0B6C5C07309278E7CF2816019D149/',
+          title: 'Consummate Cross-dresser',
+          description: 'Get Don Corneo to choose Cloud over the two females',
+          date: '31/12/2025 7:05 p. m.',
+          icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG6POSYjYO3DjyZYlbPw9x9ADqqrLihIimUg&s',
           trophyType: 'bronze',
         },
       ],
     },
     {
-      title: "Marvel's Spider-Man: Miles Morales",
-      platform: 'PS5',
-      image: 'https://images.alphacoders.com/129/1292613.png',
+      title: "The Amazing Spider-man 2",
+      platform: 'PS3',
+      image: 'https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA00394_00/2/i_38d9df9db9dddcf6d789cce243878381bfed78d9e2091268e167d7be200ee2dc/i/pic0.png',
       achievements: [
         {
-          title: 'Sé quien eres',
-          description: 'Obtén todos los trofeos.',
-          date: '5/1/2024 8:28 p. m.',
-          icon: 'https://i.psnprofiles.com/games/310204/trophies/1L954d81.png',
-          trophyType: 'platinum',
+          title: 'Luchador!',
+          description: 'Completed all combat challenges',
+          date: '14/12/2019 10:41 p. m.',
+          icon: '../../../assets/img/00.png',
+          trophyType: 'bronze',
         },
       ],
     },
