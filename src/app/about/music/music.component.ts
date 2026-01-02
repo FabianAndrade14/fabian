@@ -20,8 +20,8 @@ export class MusicComponent implements OnInit {
   };
 
   gamingActivity = {
-    title: 'Batman Arkham Origins',
-    platform: 'Playstation 3',
+    title: 'Final Fantasy VII',
+    platform: 'Playstation 4',
     cover: 'https://www.gamesfromquebec.com/wp-content/uploads/2020/04/WB-Games-Montr%C3%A9al_Batman-Arkham-Origins.jpeg',
     lastPlayed: this.timestamp
   }
