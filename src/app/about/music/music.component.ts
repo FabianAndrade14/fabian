@@ -22,7 +22,7 @@ export class MusicComponent implements OnInit {
   gamingActivity = {
     title: 'Final Fantasy VII',
     platform: 'Playstation 4',
-    cover: 'https://www.gamesfromquebec.com/wp-content/uploads/2020/04/WB-Games-Montr%C3%A9al_Batman-Arkham-Origins.jpeg',
+    cover: 'https://e.snmc.io/lk/f/x/e78f617bd36012d4c72cf7d071825690/11931118',
     lastPlayed: this.timestamp
   }
 
