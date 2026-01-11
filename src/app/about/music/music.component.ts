@@ -29,7 +29,7 @@ export class MusicComponent implements OnInit {
   comicActivity = {
     title: 'Nightwing',
     issue: '#9, Volume 4',
-    cover: 'https://static.wikia.nocookie.net/marvel_dc/images/2/22/Nightwing_Vol_4_9_Textless.jpg/revision/latest?cb=20161120022517',
+    cover: 'https://static.dc.com/dc/files/default_images/ntwng_v4_9_5b35751b332cb7.37456426.jpg?w=640',
     progress: 13
   }
 
