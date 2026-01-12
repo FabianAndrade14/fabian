@@ -30,10 +30,10 @@ export class GameActivityComponent implements AfterViewInit {
         'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqzHPbYPkGFa2zU-U-d_RHug9NsInB8bWNufBClN82xeE-Hv5cSNTPd0OBHm2_DuIK1cQgzMGq7fHZzxN149PuvfXRjRa5RvmA2aTlFEsTTWN_97uqvLQJWyMafCMlt444y8RBpCSPHmhjCBivdliixRa8WgWohoJ0rpr4DSRKjlT-uA5kcciyKBlX/s1280/FF7%20Orginal.jpeg',
       achievements: [
         {
-          title: 'Consummate Cross-dresser',
-          description: 'Get Don Corneo to choose Cloud over the two females',
-          date: '31/12/2025 7:05 p. m.',
-          icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG6POSYjYO3DjyZYlbPw9x9ADqqrLihIimUg&s',
+          title: 'Corel\'s Angel',
+          description: 'Score 10,050 points or more in G-Bike at the Gold Saucer',
+          date: '11/1/2026 11:05 p. m.',
+          icon: '../../../assets/img/corel_angel.png',
           trophyType: 'bronze',
         },
       ],
