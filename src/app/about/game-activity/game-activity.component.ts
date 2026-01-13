@@ -33,7 +33,7 @@ export class GameActivityComponent implements AfterViewInit {
           title: 'Waiting in the Wings',
           description: 'Obtain the Bahamut Materia',
           date: '12/1/2026 10:20 a. m.',
-          icon: '../../../assets/img/corel_angel.png',
+          icon: '../../../assets/img/08.png',
           trophyType: 'bronze',
         },
       ],
