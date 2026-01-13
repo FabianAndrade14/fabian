@@ -30,9 +30,9 @@ export class GameActivityComponent implements AfterViewInit {
         'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqzHPbYPkGFa2zU-U-d_RHug9NsInB8bWNufBClN82xeE-Hv5cSNTPd0OBHm2_DuIK1cQgzMGq7fHZzxN149PuvfXRjRa5RvmA2aTlFEsTTWN_97uqvLQJWyMafCMlt444y8RBpCSPHmhjCBivdliixRa8WgWohoJ0rpr4DSRKjlT-uA5kcciyKBlX/s1280/FF7%20Orginal.jpeg',
       achievements: [
         {
-          title: 'Corel\'s Angel',
-          description: 'Score 10,050 points or more in G-Bike at the Gold Saucer',
-          date: '11/1/2026 11:05 p. m.',
+          title: 'Waiting in the Wings',
+          description: 'Obtain the Bahamut Materia',
+          date: '12/1/2026 10:20 a. m.',
           icon: '../../../assets/img/corel_angel.png',
           trophyType: 'bronze',
         },
