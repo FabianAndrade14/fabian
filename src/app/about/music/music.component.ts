@@ -34,9 +34,9 @@ export class MusicComponent implements OnInit {
   }
 
   musicActivity = {
-    title: 'Stop and Stare',
-    author: 'OneRepublic',
-    cover: 'https://i.scdn.co/image/ab67616d0000b2732ea3e333d19679b10e888f4d',
+    title: 'A Little More',
+    author: 'Ed Sheeran',
+    cover: 'https://veromerol.com.mx/wp-content/uploads/2025/06/Ed-Sheeran-Play-2025.webp',
 
   }
 
