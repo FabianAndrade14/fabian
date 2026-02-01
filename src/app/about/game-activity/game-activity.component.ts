@@ -30,11 +30,11 @@ export class GameActivityComponent implements AfterViewInit {
         'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqzHPbYPkGFa2zU-U-d_RHug9NsInB8bWNufBClN82xeE-Hv5cSNTPd0OBHm2_DuIK1cQgzMGq7fHZzxN149PuvfXRjRa5RvmA2aTlFEsTTWN_97uqvLQJWyMafCMlt444y8RBpCSPHmhjCBivdliixRa8WgWohoJ0rpr4DSRKjlT-uA5kcciyKBlX/s1280/FF7%20Orginal.jpeg',
       achievements: [
         {
-          title: 'Meet Your Maker',
-          description: 'Learn All Creation - Yuffie\'s last Limit Break',
-          date: '21/1/2026 11:33 a. m.',
-          icon: '../../../assets/img/08.png',
-          trophyType: 'bronze',
+          title: 'Gaia\'s Guardian',
+          description: 'Obtain all trophies',
+          date: '28/1/2026 9:51 p. m.',
+          icon: 'https://jegged.com/img/Games/Final-Fantasy-VII/Trophies/Gaias-Guardian.webp',
+          trophyType: 'platinum',
         },
       ],
     },
