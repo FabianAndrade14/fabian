@@ -28,8 +28,8 @@ export class MusicComponent implements OnInit {
 
   comicActivity = {
     title: 'Nightwing',
-    issue: '#14, Volume 4',
-    cover: 'https://static.dc.com/dc/files/default_images/ntwng_v4_14_5b357589234d45.72773298.jpg?w=640',
+    issue: '#15, Volume 4',
+    cover: 'https://static.dc.com/dc/files/default_images/ntwng_v4_15_5b3575912bc1e4.86675049.jpg?w=640',
     progress: 13
   }
 
