@@ -1,0 +1,99 @@
+<section class="wrapup-container">
+
+  <!-- HEADER CON FLECHAS -->
+  <div class="insights-header">
+    <h2 class="ps-title">
+      {{
+        currentPlatform === 'ps'
+          ? 'PlayStation Insights'
+          : currentPlatform === 'nintendo'
+          ? 'Nintendo Insights'
+          : 'Steam Insights'
+      }}
+    </h2>
+
+    <div class="nav-arrows">
+      <button (click)="prevPlatform()">◀</button>
+      <button (click)="nextPlatform()">▶</button>
+    </div>
+  </div>
+
+  <!-- PLAYSTATION -->
+  <section *ngIf="currentPlatform === 'ps'" class="ps-insights">
+    <div class="insights-grid">
+      <div class="ps-card" *ngFor="let insight of psInsights">
+
+        <div class="ps-style">{{ insight.style }}</div>
+
+        <div class="ps-data">
+          <div>🎮 Títulos jugados <strong>{{ insight.titles }}</strong></div>
+          <div>🏆 Total de trofeos <strong>{{ insight.trophies }}</strong></div>
+          <div>⏱️ Horas jugadas <strong>{{ insight.hours }}</strong></div>
+          <div>👥 Multijugador <strong>{{ insight.multiplayerHours }}</strong></div>
+        </div>
+
+        <div class="ps-favorite">
+          <div class="tag">MI JUEGO PREFERIDO</div>
+          <img [src]="insight.favoriteGameImg" />
+          <p class="favorite-title">{{ insight.favoriteGameName }}</p>
+        </div>
+
+        <div class="ps-footer">WRAP-UP</div>
+        <div class="ps-year">{{ insight.year }}</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- NINTENDO -->
+  <section *ngIf="currentPlatform === 'nintendo'" class="nintendo-insights">
+    <div class="insights-grid">
+      <div class="ps-card" *ngFor="let insight of nintendoInsights">
+
+        <div class="ps-style">{{ insight.style }}</div>
+
+        <div class="ps-data">
+          <div>🎮 Títulos jugados <strong>{{ insight.titles }}</strong></div>
+          <div>⏱️ Horas jugadas <strong>{{ insight.hours }}</strong></div>
+        </div>
+
+        <div class="ps-favorite">
+          <div class="tag">MI JUEGO PREFERIDO</div>
+          <img [src]="insight.favoriteGameImg" />
+          <p class="favorite-title">{{ insight.favoriteGameName }}</p>
+        </div>
+
+        <div class="ps-footer">WRAP-UP</div>
+        <div class="ps-year">{{ insight.year }}</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- STEAM -->
+  <section *ngIf="currentPlatform === 'steam'" class="steam-insights">
+    <div class="insights-grid">
+      <div class="ps-card" *ngFor="let insight of steamInsights">
+
+        <div class="ps-style">{{ insight.style }}</div>
+
+        <div class="ps-data">
+          <div>🎮 Títulos jugados <strong>{{ insight.titles }}</strong></div>
+          <div>🏆 Logros <strong>{{ insight.achievements }}</strong></div>
+          <div>⏱️ Horas jugadas <strong>{{ insight.hours }}</strong></div>
+        </div>
+
+        <div class="ps-favorite">
+          <div class="tag">MI JUEGO PREFERIDO</div>
+          <img [src]="insight.favoriteGameImg" />
+          <p class="favorite-title">{{ insight.favoriteGameName }}</p>
+        </div>
+
+        <div class="ps-footer">WRAP-UP</div>
+        <div class="ps-year">{{ insight.year }}</div>
+
+      </div>
+    </div>
+  </section>
+
+</section>

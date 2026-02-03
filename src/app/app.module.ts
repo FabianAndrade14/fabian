@@ -13,6 +13,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { GameActivityComponent } from './about/game-activity/game-activity.component';
+import { GameInsightsComponent } from './about/game-activity/game-insights/game-insights.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { GameActivityComponent } from './about/game-activity/game-activity.compo
     HomeComponent,
     ProjectsComponent,
     GameActivityComponent,
+    GameInsightsComponent,
   ],
   imports: [
     BrowserModule,
