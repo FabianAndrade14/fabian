@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { GameActivityComponent } from './about/game-activity/game-activity.component';
 import { GameInsightsComponent } from './about/game-activity/game-insights/game-insights.component';
+import { RetroGameComponent } from './about/game-activity/retro-game/retro-game.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { GameInsightsComponent } from './about/game-activity/game-insights/game-
     ProjectsComponent,
     GameActivityComponent,
     GameInsightsComponent,
+    RetroGameComponent,
   ],
   imports: [
     BrowserModule,
