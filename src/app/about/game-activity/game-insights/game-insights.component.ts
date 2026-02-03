@@ -94,8 +94,8 @@ export class GameInsightsComponent {
       titles: 2,
       hours: 130,
       favoriteGameImg:
-        'https://automationpanda.com/wp-content/uploads/2018/06/botw-share_icon.jpg',
-      favoriteGameName: 'The Legend of Zelda: Tears of the Kingdom',
+        '../../../assets/img/botw-share_icon.jpg',
+      favoriteGameName: 'The Legend of Zelda: Breath of the Wild',
     },
   ];
 
