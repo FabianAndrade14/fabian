@@ -20,9 +20,9 @@ export class MusicComponent implements OnInit {
   };
 
   gamingActivity = {
-    title: 'Final Fantasy VII',
-    platform: 'Playstation 4',
-    cover: 'https://e.snmc.io/lk/f/x/e78f617bd36012d4c72cf7d071825690/11931118',
+    title: 'Final Fantasy VII Rebirth',
+    platform: 'Playstation 5',
+    cover: 'https://i.3djuegos.com/juegos/18599/final_fantasy_vii_remake_parte_ii/fotos/ficha/final_fantasy_vii_remake_parte_ii-5867864.webp',
     lastPlayed: this.timestamp
   }
 
