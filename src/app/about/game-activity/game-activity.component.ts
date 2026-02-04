@@ -10,8 +10,8 @@ export class GameActivityComponent implements AfterViewInit {
 
   slides: Slide[] = [
     {
-      title: 'Final Fantasy VII',
-      platform: 'PS4',
+      title: 'Final Fantasy VII Rebirth',
+      platform: 'PS5',
       image:
         'https://d1lss44hh2trtw.cloudfront.net/assets/article/2023/09/14/final-fantasy-7-rebirth-gets-february-2024-release-date_feature.jpg',
     },
@@ -30,10 +30,10 @@ export class GameActivityComponent implements AfterViewInit {
         'https://d1lss44hh2trtw.cloudfront.net/assets/article/2023/09/14/final-fantasy-7-rebirth-gets-february-2024-release-date_feature.jpg',
       achievements: [
         {
-          title: 'New Blood',
-          description: 'Raise your Queen\'s Blood rank.',
-          date: '29/1/2026 12:48 a. m.',
-          icon: 'https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/2909400/f88a6b5a64d082a278de5c9787f474681346fb5a.jpg',
+          title: 'Intelligence Aide',
+          description: 'Gather world intel at five separate locations.',
+          date: '3/2/2026 11:27 a. m.',
+          icon: 'https://ffcorner.com/ff7r2/trophae_forschung1.png',
           trophyType: 'bronze',
         },
       ],
