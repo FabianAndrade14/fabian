@@ -30,10 +30,10 @@ export class GameActivityComponent implements AfterViewInit {
         'https://d1lss44hh2trtw.cloudfront.net/assets/article/2023/09/14/final-fantasy-7-rebirth-gets-february-2024-release-date_feature.jpg',
       achievements: [
         {
-          title: 'Intelligence Aide',
-          description: 'Gather world intel at five separate locations.',
-          date: '3/2/2026 11:27 a. m.',
-          icon: 'https://ffcorner.com/ff7r2/trophae_forschung1.png',
+          title: 'Make Mine Black',
+          description: 'Complete Chapter 3.',
+          date: '5/2/2026 1:35 p. m.',
+          icon: 'https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2909400/b70c5c57e6224a41e1bf4a38185c6a9380825add.jpg',
           trophyType: 'bronze',
         },
       ],
