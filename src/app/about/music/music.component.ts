@@ -28,15 +28,15 @@ export class MusicComponent implements OnInit {
 
   comicActivity = {
     title: 'Nightwing',
-    issue: '#16, Volume 4',
-    cover: 'https://static.dc.com/dc/files/default_images/ntwng_v4_16_5b35759b00ed08.58564171.jpg?w=640',
+    issue: '#21, Volume 4',
+    cover: 'https://static.dc.com/dc/files/default_images/NTW_21-%2528Cover%2529_5b85cddf225127.93036734.jpg?w=640',
     progress: 13
   }
 
   musicActivity = {
-    title: 'A Little More',
-    author: 'Ed Sheeran',
-    cover: 'https://veromerol.com.mx/wp-content/uploads/2025/06/Ed-Sheeran-Play-2025.webp',
+    title: 'When i\'m gone',
+    author: 'Simple Plan',
+    cover: 'https://i.discogs.com/MjwDFbv28Tkg6pWdUn71TD-yazQZ-qZeO5iUKDc8DkU/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzNjAx/ODgtMTY2MzA1MDYw/NC05MTQzLmpwZWc.jpeg',
 
   }
 
