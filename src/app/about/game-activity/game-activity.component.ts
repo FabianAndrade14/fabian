@@ -30,10 +30,10 @@ export class GameActivityComponent implements AfterViewInit {
         'https://d1lss44hh2trtw.cloudfront.net/assets/article/2023/09/14/final-fantasy-7-rebirth-gets-february-2024-release-date_feature.jpg',
       achievements: [
         {
-          title: 'Fort Condor Commander',
-          description: 'Obtain a protorelic in the Junon region.',
-          date: '8/2/2026 7:45 a. m.',
-          icon: 'https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2909400/6a515bce208f30e9f283614582bd02b6b12ebf09.jpg',
+          title: '7th, Assemble!',
+          description: 'Recruit all Midgar 7th Infantry units for the parade in Junon.',
+          date: '11/2/2026 12:55 p. m.',
+          icon: 'https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2909400/97e8dfb95c9af215e5f4776afa0c763dc14e32c6.jpg',
           trophyType: 'bronze',
         },
       ],
