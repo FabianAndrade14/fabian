@@ -27,9 +27,9 @@ export class MusicComponent implements OnInit {
   }
 
   comicActivity = {
-    title: 'Nightwing',
-    issue: '#21, Volume 4',
-    cover: 'https://static.dc.com/dc/files/default_images/NTW_21-%2528Cover%2529_5b85cddf225127.93036734.jpg?w=640',
+    title: 'The Spectacular Spider-Man',
+    issue: '#22, Volume 1',
+    cover: 'https://spiderfan.org/images/title/comics/spiderman_spectacular/022.jpg',
     progress: 13
   }
 
