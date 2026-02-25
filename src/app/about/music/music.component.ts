@@ -34,9 +34,9 @@ export class MusicComponent implements OnInit {
   }
 
   musicActivity = {
-    title: 'When i\'m gone',
-    author: 'Simple Plan',
-    cover: 'https://i.discogs.com/MjwDFbv28Tkg6pWdUn71TD-yazQZ-qZeO5iUKDc8DkU/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzNjAx/ODgtMTY2MzA1MDYw/NC05MTQzLmpwZWc.jpeg',
+    title: 'New Perspective',
+    author: ' Panic! at the Disco',
+    cover: 'https://i.scdn.co/image/ab67616d0000b273d536799e5d59ff3f42874aec',
 
   }
 
