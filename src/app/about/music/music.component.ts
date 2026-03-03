@@ -27,9 +27,9 @@ export class MusicComponent implements OnInit {
   }
 
   comicActivity = {
-    title: 'Dawn of DC Batman',
-    issue: '#12',
-    cover: 'https://b2clibrerianacional.vtexassets.com/arquivos/ids/354261/423756.jpg?v=638953771163970000',
+    title: 'Peter Parker: The Spectacular Spider-Man',
+    issue: '#24, Volumen 1',
+    cover: 'https://cdn.marvel.com/u/prod/marvel/i/mg/2/04/5cffc7437ebe9/clean.jpg',
     progress: 100
   }
 
