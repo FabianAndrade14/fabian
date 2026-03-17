@@ -30,10 +30,10 @@ export class GameActivityComponent implements AfterViewInit {
         'https://d1lss44hh2trtw.cloudfront.net/assets/article/2023/09/14/final-fantasy-7-rebirth-gets-february-2024-release-date_feature.jpg',
       achievements: [
         {
-          title: 'The Price of Progress',
-          description: 'Complete Chapter 7.',
-          date: '23/2/2026 3:22 p. m.',
-          icon: 'https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2909400/9326bd8c71edf5716b9d7fb7aa5e3f3d8215420d.jpg',
+          title: 'Crying Out',
+          description: 'Complete Chapter 9.',
+          date: '13/03/2026 11:43 p. m.',
+          icon: 'https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2909400/96773f81b3119742e2c062a7b407a01a8f1ef9e7.jpg',
           trophyType: 'bronze',
         },
       ],
