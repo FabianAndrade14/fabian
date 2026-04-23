@@ -20,9 +20,9 @@ export class MusicComponent implements OnInit {
   };
 
   gamingActivity = {
-    title: 'Final Fantasy VII Rebirth',
-    platform: 'Playstation 5',
-    cover: 'https://i.3djuegos.com/juegos/18599/final_fantasy_vii_remake_parte_ii/fotos/ficha/final_fantasy_vii_remake_parte_ii-5867864.webp',
+    title: 'The Legend of Zelda Wind Waker HD',
+    platform: 'Nintendo Wii U',
+    cover: 'https://assetsio.gnwcdn.com/137944197772.jpg?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp',
     lastPlayed: this.timestamp
   }
 
