@@ -30,7 +30,7 @@ export class MusicComponent implements OnInit {
     title: 'Invincible',
     issue: '#9 Volumen 1',
     cover: 'https://cdn.imagecomics.com/assets/i/releases/1015758/invincible-vol-3-perfect-strangers_bc56e8303b.jpg',
-    progress: 10
+    progress: 90
   }
 
   musicActivity = {
