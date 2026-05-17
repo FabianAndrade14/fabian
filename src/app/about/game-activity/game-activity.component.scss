@@ -11,7 +11,13 @@
   width: 100%;
   height: 500px;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 24px;
+
+  box-shadow:
+    0 15px 40px rgba(0, 0, 0, 0.45),
+    0 0 25px rgba(80, 180, 255, 0.08);
+
+  border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .season-slider {
@@ -24,38 +30,152 @@
   min-width: 100%;
   height: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: center 20%;
+  background-repeat: no-repeat;
   position: relative;
-  border-radius: 12px;
+  border-radius: 24px;
+  overflow: hidden;
 }
 
+/* Overlay cinematográfico */
+.slide::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(to top,
+      rgba(5, 8, 15, 0.88) 8%,
+      rgba(5, 8, 15, 0.45) 45%,
+      rgba(5, 8, 15, 0.1) 100%);
+
+  z-index: 1;
+}
+
+/* Glow azul suave */
+.slide::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(circle at bottom left,
+      rgba(80, 180, 255, 0.18),
+      transparent 45%);
+
+  z-index: 1;
+}
+
+
+/* CONTENIDO ENCIMA DEL SLIDER */
 .slide-info {
   position: absolute;
-  bottom: 12px;
-  left: 12px;
-  background: rgba(0, 0, 0, 0.55);
-  padding: 6px 12px;
-  border-radius: 6px;
+  bottom: 35px;
+  left: 35px;
+
+  z-index: 2;
+
+  max-width: 65%;
+  padding: 0;
+
+  background: transparent;
+  border-radius: 0;
 }
 
+/* TÍTULO */
+.slide-info h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+
+  margin-bottom: 12px;
+
+  color: #ffffff;
+
+  text-shadow:
+    0 4px 18px rgba(0, 0, 0, 0.75);
+
+  letter-spacing: -1px;
+}
+
+/* SUBTEXTO */
+.slide-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+
+  color: rgba(255, 255, 255, 0.82);
+
+  text-shadow:
+    0 2px 10px rgba(0, 0, 0, 0.8);
+
+  max-width: 90%;
+}
+
+/* TAG OPCIONAL */
+.slide-tag {
+  display: inline-block;
+
+  margin-bottom: 16px;
+  padding: 8px 14px;
+
+  background: rgba(80, 180, 255, 0.16);
+
+  border: 1px solid rgba(120, 200, 255, 0.28);
+
+  backdrop-filter: blur(10px);
+
+  color: #bde9ff;
+
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  border-radius: 999px;
+
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* BOTONES */
 .nav-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.45);
+
+  width: 46px;
+  height: 46px;
+
   border: none;
+  border-radius: 50%;
+
+  background: rgba(10, 15, 25, 0.55);
+
+  backdrop-filter: blur(10px);
+
   color: white;
-  padding: 6px 12px;
-  border-radius: 8px;
+  font-size: 1rem;
+
   cursor: pointer;
-  font-size: 18px;
-}
-.nav-button:hover {
-  background: rgba(0, 0, 0, 0.65);
+  z-index: 5;
+
+  transition: all 0.25s ease;
 }
 
-.left { left: 10px; }
-.right { right: 10px; }
+.nav-button:hover {
+  transform: translateY(-50%) scale(1.08);
+
+  background: rgba(80, 180, 255, 0.22);
+
+  box-shadow:
+    0 0 20px rgba(80, 180, 255, 0.35);
+}
+
+.left {
+  left: 18px;
+}
+
+.right {
+  right: 18px;
+}
 
 /* CARDS COMPACTAS */
 .section-title {
@@ -439,7 +559,18 @@
 }
 
 /* Trofeos */
-.trophy.bronze { color: #cd7f32; }
-.trophy.silver { color: #c0c0c0; }
-.trophy.gold { color: #ffd700; }
-.trophy.platinum { color: #8be9fd; }
+.trophy.bronze {
+  color: #cd7f32;
+}
+
+.trophy.silver {
+  color: #c0c0c0;
+}
+
+.trophy.gold {
+  color: #ffd700;
+}
+
+.trophy.platinum {
+  color: #8be9fd;
+}

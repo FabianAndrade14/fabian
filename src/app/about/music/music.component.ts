@@ -20,9 +20,9 @@ export class MusicComponent implements OnInit {
   };
 
   gamingActivity = {
-    title: 'The Legend of Zelda Wind Waker HD',
-    platform: 'Nintendo Wii U',
-    cover: 'https://assetsio.gnwcdn.com/137944197772.jpg?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp',
+    title: 'Castlevania Lords of Shadow',
+    platform: 'PlayStation 3',
+    cover: 'https://image.api.playstation.com/cdn/UP0101/BLUS30339_00/dgfoCawbUJyKWuugyNIwHVozHuVmIuvN.png',
     lastPlayed: this.timestamp
   }
 

@@ -10,22 +10,22 @@ export class GameActivityComponent implements AfterViewInit {
 
   slides: Slide[] = [
     {
-      title: 'Final Fantasy VII Rebirth',
-      platform: 'PS5',
+      title: 'Castlevania Lords of Shadow',
+      platform: 'PlayStation 3',
       image:
-        'https://d1lss44hh2trtw.cloudfront.net/assets/article/2023/09/14/final-fantasy-7-rebirth-gets-february-2024-release-date_feature.jpg',
+        'https://images5.alphacoders.com/585/thumb-1920-585115.jpg',
     },
     {
       title: "The Amazing Spider-man 2",
-      platform: 'PS3',
-      image: 'https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA00394_00/2/i_38d9df9db9dddcf6d789cce243878381bfed78d9e2091268e167d7be200ee2dc/i/pic0.png',
+      platform: 'PlayStation 3',
+      image: 'https://wallpapercave.com/wp/wp9634337.jpg',
     },
   ];
 
   seasonalGames: SeasonalGame[] = [
     {
       title: 'Final Fantasy VII Rebirth',
-      platform: 'PS5',
+      platform: 'PlayStation 5',
       image:
         'https://d1lss44hh2trtw.cloudfront.net/assets/article/2023/09/14/final-fantasy-7-rebirth-gets-february-2024-release-date_feature.jpg',
       achievements: [
@@ -40,7 +40,7 @@ export class GameActivityComponent implements AfterViewInit {
     },
     {
       title: "The Amazing Spider-man 2",
-      platform: 'PS3',
+      platform: 'PlayStation 3',
       image: 'https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA00394_00/2/i_38d9df9db9dddcf6d789cce243878381bfed78d9e2091268e167d7be200ee2dc/i/pic0.png',
       achievements: [
         {
