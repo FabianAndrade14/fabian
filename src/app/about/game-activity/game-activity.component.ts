@@ -24,16 +24,16 @@ export class GameActivityComponent implements AfterViewInit {
 
   seasonalGames: SeasonalGame[] = [
     {
-      title: 'Final Fantasy VII Rebirth',
-      platform: 'PlayStation 5',
+      title: 'Castlevania Lords of Shadow',
+      platform: 'PlayStation 3',
       image:
-        'https://d1lss44hh2trtw.cloudfront.net/assets/article/2023/09/14/final-fantasy-7-rebirth-gets-february-2024-release-date_feature.jpg',
+        'https://wallpaperaccess.com/full/6261549.jpg',
       achievements: [
         {
-          title: 'Crying Out',
-          description: 'Complete Chapter 9.',
-          date: '13/03/2026 11:43 p. m.',
-          icon: 'https://cdn.fastly.steamstatic.com/steamcommunity/public/images/apps/2909400/96773f81b3119742e2c062a7b407a01a8f1ef9e7.jpg',
+          title: 'Experienced',
+          description: 'Acquire 1000 experience points',
+          date: '17/05/2026 10:33 p. m.',
+          icon: '../../../assets/img/castle.png',
           trophyType: 'bronze',
         },
       ],
