@@ -15,7 +15,7 @@ export class MusicComponent implements OnInit {
   readingActivity = {
     title: 'El Psicoanalista',
     author: 'John Katzenbach',
-    progress: 90,
+    progress: 91,
     cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1nccrYxfCU_Dab1J5GS7HLdxWfRCGoiKZww&s'
   };
 
@@ -30,7 +30,7 @@ export class MusicComponent implements OnInit {
     title: 'Invincible',
     issue: '#9 Volumen 1',
     cover: 'https://cdn.imagecomics.com/assets/i/releases/1015758/invincible-vol-3-perfect-strangers_bc56e8303b.jpg',
-    progress: 90
+    progress: 100
   }
 
   musicActivity = {
