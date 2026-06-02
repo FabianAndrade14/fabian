@@ -27,10 +27,10 @@ export class MusicComponent implements OnInit {
   }
 
   comicActivity = {
-    title: 'Invincible',
-    issue: '#9 Volumen 1',
-    cover: 'https://cdn.imagecomics.com/assets/i/releases/1015758/invincible-vol-3-perfect-strangers_bc56e8303b.jpg',
-    progress: 100
+    title: 'The Amazing Spider-Man',
+    issue: '#23 Volumen 7',
+    cover: 'https://cdn.marvel.com/u/prod/marvel/i/mg/1/00/6997713a7e611/clean.jpg',
+    progress: 80
   }
 
   musicActivity = {
