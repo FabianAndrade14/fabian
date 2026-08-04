@@ -10,10 +10,10 @@ export class GameActivityComponent implements AfterViewInit {
 
   slides: Slide[] = [
     {
-      title: 'Castlevania Lords of Shadow',
+      title: 'X-Men Origins: Wolverine',
       platform: 'PlayStation 3',
       image:
-        'https://images5.alphacoders.com/585/thumb-1920-585115.jpg',
+        'https://wallpapercave.com/wp/5xSeI9g.jpg',
     },
     {
       title: "The Amazing Spider-man 2",
@@ -24,17 +24,17 @@ export class GameActivityComponent implements AfterViewInit {
 
   seasonalGames: SeasonalGame[] = [
     {
-      title: 'Castlevania Lords of Shadow',
+      title: 'X-Men Origins: Wolverine',
       platform: 'PlayStation 3',
       image:
-        'https://wallpaperaccess.com/full/6261549.jpg',
+        'https://cdn2.steamgriddb.com/hero/a026d46bd57a1406c5e5931c907d25f1.png',
       achievements: [
         {
-          title: 'Experienced',
-          description: 'Acquire 1000 experience points',
-          date: '17/05/2026 10:33 p. m.',
-          icon: '../../../assets/img/castle.png',
-          trophyType: 'bronze',
+          title: 'Bar Fight',
+          description: 'Defeated Victor Creed (Sabretooth)',
+          date: '07/07/2026 10:33 a. m.',
+          icon: 'https://image.api.playstation.com/trophy/np/NPWR00501_00_00F98F97EEA1DC56609FD9168CF1EE3E654937502B/17F2EE77C350A765938D784DC38DA31D94B00199.PNG',
+          trophyType: 'silver',
         },
       ],
     },

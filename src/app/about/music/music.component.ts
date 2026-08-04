@@ -20,9 +20,9 @@ export class MusicComponent implements OnInit {
   };
 
   gamingActivity = {
-    title: 'Castlevania Lords of Shadow',
+    title: 'X-Men Origins: Wolverine',
     platform: 'PlayStation 3',
-    cover: 'https://image.api.playstation.com/cdn/UP0101/BLUS30339_00/dgfoCawbUJyKWuugyNIwHVozHuVmIuvN.png',
+    cover: 'https://assets-prd.ignimgs.com/2022/11/09/xmenuncaged-1668038268900.jpg',
     lastPlayed: this.timestamp
   }
 
