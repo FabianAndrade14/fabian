@@ -37,7 +37,7 @@ export class ProjectsComponent {
   },
   {
     title: 'Fortaleza de la soledad',
-    image: 'https://firebasestorage.googleapis.com/v0/b/fandrade-fa579.appspot.com/o/logo-fortress.png?alt=media&token=bda3a5ee-b938-46d5-ad81-7ee232d4386e',
+    image: 'https://fortaleza-soledad-3t6q.vercel.app/assets/img/logo-fortress.png',
     stars: 2,
     description: 'Business initiave developed with Angular',
     link: 'https://github.com/FabianAndrade14/fortress-solitude-bar'
