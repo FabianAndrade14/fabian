@@ -40,7 +40,7 @@ export class ProjectsComponent {
     image: 'https://fortaleza-soledad-3t6q.vercel.app/assets/img/logo-fortress.png',
     stars: 2,
     description: 'Business initiave developed with Angular',
-    link: 'https://github.com/FabianAndrade14/fortress-solitude-bar'
+    link: 'https://github.com/FabianAndrade14/fortaleza-soledad'
   },
   {
     title: 'Pokemon App',
