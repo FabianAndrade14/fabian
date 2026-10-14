@@ -28,6 +28,13 @@ export class ProjectsComponent {
     description: 'A developer diary',
     link: 'https://github.com/FabianAndrade14/journal-app'
   },
+    {
+    title: 'The Gaming Vault',
+    image: '../assets/img/Projects/chest.jpg',
+    stars: 1,
+    description: 'A way to organize your videogames collection',
+    link: 'https://github.com/FabianAndrade14/thegamevault'
+  },
   {
     title: 'Gif Expert',
     image: '../assets/img/Projects/gifexpert.jpg',
